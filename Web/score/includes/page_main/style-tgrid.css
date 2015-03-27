@@ -1,0 +1,808 @@
+.tablemain {
+	background-image: url(/theme/images/bg.gif);
+	background-repeat: repeat-x;
+	background-position: top;
+	background-color: #F3F3F3;
+	border: 1px solid #999999;
+	margin: 3px;
+}
+.tablemain .tableheaderinfo{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	margin: 3px;
+	color: #900;
+	font-weight: bold;	
+}
+.tablemain .clockx{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	margin: 0px;
+	color: #900;
+	font-weight:  normal;	
+}
+.tablemain .tableheaderinfo a:link{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin: 3px;
+	color: #009;
+	text-decoration: none;	
+}
+.tablemain .tableheaderinfo a:visited{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin: 3px;
+	color: #009;
+	text-decoration: none;	
+}
+.tablemain .tableheaderinfo a:hover{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin: 3px;
+	color: #009;
+	text-decoration: none;	
+}
+.tablemain .tableheaderdesc{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	margin-top: 3px;
+	margin-right: 3px;
+	color: #000;
+	font-style: italic;
+}
+.copyright {
+	font-size: 10px;
+	font-style: none;
+	padding: 5px;
+}
+
+#tablemenu
+{
+	text-decoration: none;
+	padding-left: 0px;
+	padding-top:0px;
+}
+#tablemenu ul
+{
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+#tablemenu li {
+	text-decoration: none;
+	display: block;
+	padding-left: 5px;
+	padding-bottom: 3px;
+	font-size: 12px;
+}
+#tablemenu li a:link,#tablemenu a:active,#tablemenu a:visited{
+	text-decoration: none;
+	display: block;
+	color: #138ECB;
+	font-size: 12px;
+}
+#tablemenu li a:hover{
+	text-decoration: none;
+	display: block;
+	color: #138ECB;
+	font-weight: bold;
+	font-size: 12px;
+}
+#tablemenu li.header {
+	font-weight: bold;
+	text-transform: uppercase;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #327AA5;
+	padding-left: 0px;
+	color: #115098;
+	padding-top: 15px;
+	font-size: 12px;
+}
+#tablemenu li.headerNoTopPadding {
+	font-weight: bold;
+	text-transform: uppercase;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #327AA5;
+	padding-left: 0px;
+	color: #115098;
+	font-size: 12px;
+}
+
+
+#dashboardmemo
+{
+	text-decoration: none;
+	padding-left: 0px;
+	padding-top:0px;
+}
+#dashboardmemo ul
+{
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+#dashboardmemo li {
+	text-decoration: none;
+	display: block;
+	padding-left: 5px;
+	padding-bottom: 3px;
+	font-size: 12px;
+}
+#dashboardmemo li a:link,#dashboardmemo a:active,#dashboardmemo a:visited{
+	text-decoration: none;
+	display: block;
+	color: #FF0000;
+	font-size: 12px;
+}
+#dashboardmemo li a:hover{
+	text-decoration: none;
+	color: #FF0000;
+	font-size: 12px;
+}
+#dashboardmemo li.header {
+	font-weight: bold;
+	text-transform: uppercase;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #327AA5;
+	padding-left: 0px;
+	color: #115098;
+	padding-top: 15px;
+	font-size: 12px;
+}
+#dashboardmemo li.header .info{
+	font-weight:normal;
+	padding-left: 0px;
+	color: #115098;
+	font-size: 5px;
+	text-transform:none;
+	font-style:italic;
+}
+#dashboardmemo li.info {
+	text-transform: uppercase;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #327AA5;
+	padding-right: 3px;
+	color: #115098;
+	font-size: 5px;
+	font-style:italic;
+	text-align:right;
+}
+
+#tablemenuinfo {
+	text-decoration: none;
+	padding-left: 0px;
+	font-size: 11px;
+	color: #333333;
+}
+#tablemenuinfo a:link,#tablemenuinfo a:visited,#tablemenuinfo a:hover
+{
+	text-decoration: none;
+	padding-left: 0px;
+	font-size: 11px;
+	color: #333333;
+}
+
+#tablecontent
+{
+	text-decoration: none;
+}
+#tablecontent .infoheader {
+	text-decoration: none;
+	font-size: 16px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-weight: bold;
+	color: #115098;
+	vertical-align: bottom;
+}
+#tablecontent .infodesc{
+	text-decoration: none;
+	padding-bottom: 3px;
+	font-style: italic;
+	font-size: 11px;
+	color: #666666;
+}
+#tablecontent .tableheaderaction{
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 5px;
+	color: #000;
+	font-size: 11px;
+	background-position: bottom;
+	background-image: url(../images/gridbkg_gray.png);
+	background-repeat: repeat-x;	
+	height: 25px;
+	background-color: #000;
+}
+
+#tablecontent .tableheaderaction a:visited{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 11px;
+}
+
+#tablecontent .tableaction{
+	border:1px solid #666;
+	margin-bottom: 2px;
+	margin-top: 2px;
+	padding: 1px;
+}
+
+#tablecontent .tableheader2{
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 5px;
+	color: #333;
+	font-size: 11px;
+}
+
+#tablecontent .tableheader{
+	text-decoration: none;
+	text-transform: capitalize;
+	padding: 5px;
+	color: #000;
+	background-color:#CDAD00;
+	font-size: 11px;
+	font-weight:bold;
+	/*background-position: bottom;
+	background-image: url(../images/gridbkg.jpg);
+	background-repeat: repeat-x repeat-y;*/
+	height: 25px;
+}
+#tablecontent .tableheader a:link{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+}
+#tablecontent .tableheader a:visited{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+}
+#tablecontent .tableheader a:active{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+}
+#tablecontent .tableheader a:hover{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+}
+#tablecontent .tableheader_copy{
+	background-color: #BBBBBB;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 2px;
+	border-bottom-width: medium;
+	border-bottom-style: double;
+	border-bottom-color: #327AA5;
+	color: #115098;
+	font-weight: bold;
+	font-size: 12px;
+	background-position: bottom;
+	background-image: url(../images/gridbkg.jpg);
+	background-repeat: repeat-x;
+}
+#tablecontent .contentheader {
+	font-weight: bold;
+	text-transform: uppercase;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #327AA5;
+	padding-left: 0px;
+	color: #115098;
+	padding-top: 15px;
+	font-size: 12px;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+#tablecontent .contentcontent{
+	padding: 3px;
+	font-size: 12px;
+	font-style: italic;
+}
+#tablecontent .contentcontent ol{
+	padding-left: 3px;
+	font-size: 12px;
+	font-style: italic;
+}
+#tablecontent .tablefooter{
+	text-decoration: none;
+	padding: 5px;
+	color: #fff;
+	font-size: 10px;
+	background-image: url(../images/gridbkgfooter.png);
+	background-repeat: repeat-x;
+}
+#tablecontent .tablefooter a:link{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+}
+#tablecontent .tablefooter a:visited{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+}
+#tablecontent .tablefooter a:active{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+}
+#tablecontent .tablefooter a:hover{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+}
+#tablecontent .tablefooter_copy{
+	background-color: #BBBBBB;
+	text-decoration: none;
+	padding: 2px;
+	border-top-width: medium;
+	border-top-style: double;
+	border-top-color: #327AA5;
+	color: #115098;
+	font-weight: bold;
+	font-size: 12px;
+}
+#tablecontent .tableborder{
+	padding: 1px;
+	border: 1px solid #999999;
+}
+#tablecontent .sample{
+	font-weight: bold;
+	color:red;
+	font-size: 11px;
+}
+#tablecontent .tablecontent a:link{
+	text-decoration: none;
+	padding: 2px;
+	font-size: 12px;
+}
+#tablecontent .tablecontent a:hover{
+	text-decoration: none;
+	padding: 2px;
+	font-size: 12px;
+}
+#tablecontent .tablecontent a:visited{
+	text-decoration: none;
+	padding: 2px;
+	font-size: 12px;
+}
+#tablecontent .tablecontent a:active{
+	text-decoration: none;
+	padding: 2px;
+	font-size: 12px;
+}
+#tablecontent .tablecontent{
+	text-decoration: none;
+	font-size: 12px;
+	padding-top: 5px;
+	padding-right: 3px;
+	padding-bottom: 5px;
+	padding-left: 3px;
+}
+#tablecontent .tablecontentgrid{
+	text-decoration: none;
+	font-size: 12px;
+	padding-top: 5px;
+	padding-right: 3px;
+	padding-bottom: 3px;
+	padding-left: 3px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #C1C1C1;
+	background-color: #FFF;
+	color:#333;
+}
+#tablecontent .tablecontentgrid2{
+	text-decoration: none;
+	font-size: 11px;
+	padding-top: 5px;
+	padding-right: 3px;
+	padding-bottom: 3px;
+	padding-left: 3px;
+	color:#333;
+}
+#tablecontent .tablecontentgridmedium{
+	text-decoration: none;
+	font-size: 10px;
+	padding:3px;
+}
+#tablecontent .tablecontentgridsmall{
+	text-decoration: none;
+	font-size: 9px;
+}
+#tablecontent .tablecontentgridcalendar{
+	text-decoration: none;
+	font-size: 12px;
+	padding-top: 5px;
+	padding-right: 3px;
+	padding-bottom: 3px;
+	padding-left: 3px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #C1C1C1;
+	background-color: #FFF;
+	color:#FFF;
+	background-image: url(/images/calendar_bg.gif);
+	background-repeat: no-repeat;
+	background-position: 0px center;
+}
+#tablecontent .tablecontentstrike{
+	text-decoration: line-through;
+	padding: 2px;
+	font-size: 12px;
+}
+#tablecontent .tablecontent2{
+	font-weight: bold;
+	padding: 0px;
+	font-size: 12px;
+}
+#tablecontent .spacer{
+	text-decoration: none;
+	height: 50px;
+}
+#tablecontent .spacersmall{
+	text-decoration: none;
+	height: 10px;
+}
+.logo{
+	height: 70px;
+	vertical-align: middle;
+	background-image: url(../images/header_bkg.jpg);
+	background-repeat: repeat-x;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFF;
+}
+.shortcutlinks{
+	line-height: 20px;	
+}
+.logotext{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:30px;
+	height: 70px;
+	vertical-align: middle;
+	background-image: url(../images/header_bkg.jpg);
+	background-repeat: repeat-x;
+	font-weight:bold;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFF;
+	color:#FFF;
+}
+.logotextmobile{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:20px;
+	height: 30px;
+	vertical-align: middle;
+	background-image: url(../images/header_bkg.jpg);
+	background-repeat: repeat-x;
+	font-weight:bold;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFF;
+	color:#FFF;
+}
+.logotextdesc{
+	height: 70px;
+	vertical-align: bottom;
+	background-image: url(../images/header_bkg.jpg);
+	background-repeat: repeat-x;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFF;
+	font-style:italic;
+	font-size:11px;
+}
+input{
+	background-color: #CCCCCC;
+	border: 1px solid #999999;
+	font-size: 12px;
+}
+select
+{
+	background-color: #CCCCCC;
+	border: 1px solid #999999;
+	font-size: 12px;
+}
+textarea
+{
+	background-color: #CCCCCC;
+	border: 1px solid #999999;
+	font-size: 12px;
+}
+#tablenavigation .tablecontent
+{
+	text-decoration: none;
+	padding: 2px;
+	font-size: 12px;
+} 
+#tablenavigation a:link,a:visited
+{
+	text-decoration: none;
+	padding: 0px;
+	font-size: 12px;
+}
+#tablecontent .tablescrollsmall
+{
+	display: block;
+	height: 150px;
+	width: 100%;
+	overflow-x: scroll;
+	overflow-y: scroll;
+}
+#tablecontent .tablescrollbig
+{
+	display: block;
+	height: 720;
+	width: 800px;
+	overflow-x: scroll;
+	overflow-y: scroll;
+}
+#tablecontent .tablescrollsmallori
+{
+	float:left;
+	display: block;
+	height: 200px;
+	width: 100%;
+	overflow-x: scroll;
+	overflow-y: scroll;
+	white-space: nowrap;
+}
+.readonly {
+	background-color: #666666;
+	border: 1px solid #000000;
+	color: #FFFFFF;
+}
+.copy {
+	background-color: #000066;
+	border: 1px solid #000000;
+	color: #FFFFFF;
+}
+#mesgbg{position:fixed;height:100%;width:100%;top:0px;left:0px;background-color:#FFCECE;opacity:.25} 
+#mesgblock{ width:390px;margin:auto;left:0;right:0;border:0;}
+#mesg1{ position:fixed;margin:auto;height:100px;width:390px;top:200px;background-color:#666666;z-index:1;border-style:double;border-color:#333333;color:#FFFFFF;} 
+#mesg2{ position:fixed;margin:auto;height:100px;width:390px;top:200px;background-color:#666666;z-index:1;border-style:double;border-color:#333333;color:#FFFFFF;} 
+#mesg3{ position:fixed;margin:auto;height:100px;width:390px;top:200px;background-color:#666666;z-index:1;border-style:double;border-color:#333333;color:#FFFFFF;}
+#mesgcontent{ position:fixed;width:390px;top:225px;z-index:1;text-align:center;}
+
+.uonline{
+	border: 1px dashed #CbCbCb;
+	background-color: #E2E4F5;
+	width: 100%;
+	display:none;
+}
+ 
+		#site-body-container {}
+ 
+		#site-body-content {
+			padding: 15px 15px 15px 15px ;
+			}
+ 
+		#site-bottom-bar {
+			background-color: #E5E5E5 ;
+			border-top: 1px solid #999 ;
+			border-left: 1px solid #999 ;
+			border-right: 1px solid #999 ;
+			left:6px;
+			bottom: 0px ;
+			font-family: verdana, arial ;
+			font-size: 11px ;
+			height: 20px ;
+			position: fixed ;
+			width: 99% ;
+			z-index: 1000 ;
+			}
+ 
+		#site-bottom-bar-frame {
+			height: 30px ;
+			margin: 0px 10px 0px 10px ;
+			position: relative ;
+			}
+ 
+		#site-bottom-bar-content {
+			padding: 3px 0px 0px 8px ;
+			}
+			
+/* mao dibuat pemisah			
+ 		#site-bottom-bar-content-left {
+			padding: 3px 0px 0px 0px ;
+			width:25%;
+			}
+ 
+ 		#site-bottom-bar-content-center {
+			width:25%;
+			border-top: 1px dashed;
+			margin-left:315px;
+			margin-bottom:0px;
+			}
+*/
+ 		#site-bottom-bar:hover {
+			background-color: #FFF ;
+			border-color: #999 ;
+			color: #FFFFFF ;
+			}
+
+		#menu-root {
+			background-color: #E8E8E8 ;
+			border: 1px solid #D0D0D0 ;
+			color: #000000 ;
+			display: block ;
+			height: 22px ;
+			line-height: 22px ;
+			text-align: center ;
+			text-decoration: none ;
+			width: 105px ;
+			}
+ 
+		#menu-root:hover {
+			background-color: #666666 ;
+			border-color: #000000 ;
+			color: #FFFFFF ;
+			}
+ 
+		#menu {
+			background-color: #E8E8E8 ;
+			border: 1px solid #666666 ;
+			bottom: 32px ;
+			display: none ;
+			left: 0px ;
+			padding: 5px 5px 1px 5px ;
+			position: absolute ;
+			width: 200px ;
+			}
+ 
+		#menu a {
+			background-color: #E8E8E8 ;
+			border: 1px solid #FFFFFF ;
+			color: #000000 ;
+			display: block ;
+			margin-bottom: 4px ;
+			padding: 5px 0px 5px 5px ;
+			text-decoration: none ;
+			}
+ 
+		#menu a:hover {
+			background-color: #666666 ;
+			border-color: #000000 ;
+			color: #FFFFFF ;
+			}
+	
+	/* Fixxed Header */
+	/* define height and width of scrollable area. Add 16px to width for scrollbar          */
+	div.tableContainer {
+		clear: both;
+		border: 1px solid #963;
+		overflow: auto;
+		width: 100%
+	}
+	
+	/* Reset overflow value to hidden for all non-IE browsers. */
+	html>body div.tableContainer {
+		overflow: hidden;
+		width: 100%
+	}
+	
+	/* define width of table. IE browsers only                 */
+	div.tableContainer table {
+		color: #000;
+		float: left;
+		font: normal normal 12px Verdana, Geneva, Arial, Helvetica, sans-serif
+	}
+	
+	/* define width of table. Add 16px to width for scrollbar.           */
+	/* All other non-IE browsers.                                        */
+	html>body div.tableContainer table {
+	}
+	
+	/* set table header to a fixed position. WinIE 6.x only                                       */
+	/* In WinIE 6.x, any element with a position property set to relative and is a child of       */
+	/* an element that has an overflow property set, the relative value translates into fixed.    */
+	/* Ex: parent element DIV with a class of tableContainer has an overflow property set to auto */
+	thead.fixedHeader tr {
+		position: relative
+	}
+	
+	/* set THEAD element to have block level attributes. All other non-IE browsers            */
+	/* this enables overflow to work on TBODY element. All other non-IE, non-Mozilla browsers */
+	html>body thead.fixedHeader tr {
+		display: block
+	}
+	
+	/* make the TH elements pretty */
+	thead.fixedHeader th {
+		background: #C96;
+		border-left: 1px solid #EB8;
+		border-right: 1px solid #B74;
+		border-top: 1px solid #EB8;
+		font-weight: normal;
+		padding: 4px 3px;
+		text-align: left
+	}
+	
+	/* make the A elements pretty. makes for nice clickable headers                */
+	thead.fixedHeader a, thead.fixedHeader a:link, thead.fixedHeader a:visited {
+		color: #FFF;
+		display: block;
+		text-decoration: none;
+		width: 100%
+	}
+	
+	/* make the A elements pretty. makes for nice clickable headers                */
+	/* WARNING: swapping the background on hover may cause problems in WinIE 6.x   */
+	thead.fixedHeader a:hover {
+		color: #FFF;
+		display: block;
+		text-decoration: underline;
+		width: 100%
+	}
+	
+	/* define the table content to be scrollable                                              */
+	/* set TBODY element to have block level attributes. All other non-IE browsers            */
+	/* this enables overflow to work on TBODY element. All other non-IE, non-Mozilla browsers */
+	/* induced side effect is that child TDs no longer accept width: auto                     */
+	html>body tbody.scrollContent {
+		display: block;
+		height: 362px;
+		overflow: auto;
+		width: 100%
+	}
+	
+	/* make TD elements pretty. Provide alternating classes for striping the table */
+	/* http://www.alistapart.com/articles/zebratables/                             */
+	tbody.scrollContent td, tbody.scrollContent tr.normalRow td {
+		background: #FFF;
+		border-bottom: none;
+		border-left: none;
+		border-right: 1px solid #CCC;
+		border-top: 1px solid #DDD;
+		padding: 2px 3px 3px 4px
+	}
+	
+	tbody.scrollContent tr.alternateRow td {
+		background: #EEE;
+		border-bottom: none;
+		border-left: none;
+		border-right: 1px solid #CCC;
+		border-top: 1px solid #DDD;
+		padding: 2px 3px 3px 4px
+	}
+	
+	/* define width of TH elements: 1st, 2nd, and 3rd respectively.          */
+	/* Add 16px to last TH for scrollbar padding. All other non-IE browsers. */
+	/* http://www.w3.org/TR/REC-CSS2/selector.html#adjacent-selectors        */
+/*	html>body thead.fixedHeader th {
+		width: 300px
+	}
+	
+	html>body thead.fixedHeader th + th {
+		width: 220px
+	}
+	
+	html>body thead.fixedHeader th + th + th {
+		width: 316px
+	}
+*/	
+	/* define width of TD elements: 1st, 2nd, and 3rd respectively.          */
+	/* All other non-IE browsers.                                            */
+	/* http://www.w3.org/TR/REC-CSS2/selector.html#adjacent-selectors        */
+/*	html>body tbody.scrollContent td {
+		width: 200px
+	}
+	
+	html>body tbody.scrollContent td + td {
+		width: 240px
+	}
+	
+	html>body tbody.scrollContent td + td + td {
+		width: 300px
+	}
+*/	-->

@@ -1,0 +1,66 @@
+<SCRIPT LANGUAGE="JAVASCRIPT">
+function NewWindow(myPage, myName, Width, Height) {
+	var winTop = ((screen.height - Height) / 2);
+	var winLeft= ((screen.width - Width) / 2);
+	winProps = 'top=' +winTop+ ', left=' +winLeft+ ', height=' +Height+ ', width=' +Width+ ', scrollbars=yes, resizable=yes ;'
+	Win = window.open(myPage, myName, winProps);
+
+		if (parseInt(navigator.appVersion) >= 4) {
+			Win.window.focus(); //set focus to the window
+		}
+}
+</SCRIPT>
+
+<SCRIPT LANGUAGE="JAVASCRIPT">
+function WindowKalender(myPage, myName) {
+  var Width = 330;
+  var Height = 215;
+
+	var winTop = ((screen.height - Height) / 2);
+	var winLeft= ((screen.width - Width) / 2);
+	winProps = 'top=' +winTop+ ', left=' +winLeft+ ', height=' +Height+ ', width=' +Width+ ', scrollbars=yes, resizable=no ;'
+	Win = window.open(myPage, myName, winProps);
+
+		if (parseInt(navigator.appVersion) >= 4) {
+			Win.window.focus(); //set focus to the window
+		}
+}
+</SCRIPT>
+
+<SCRIPT LANGUAGE="JAVASCRIPT">
+function NewWindowPrint(myPage, myName, Width, Height) {
+	var winTop = ((screen.height - Height) / 2);
+	var winLeft= ((screen.width - Width) / 2);
+	winProps = 'top=' +winTop+ ', left=' +winLeft+ ', height=' +Height+ ', width=' +Width+ ', scrollbars=yes, resizable=yes, toolbar=yes ;'
+	Win = window.open(myPage, myName, winProps);
+
+		if (parseInt(navigator.appVersion) >= 4) {
+			Win.window.focus(); //set focus to the window
+		}
+}
+</SCRIPT>
+
+<SCRIPT LANGUAGE="JAVASCRIPT">
+function setPointer(field, action, defaultColor, pointerColor, markColor) {
+var newColor
+var currentColor
+
+currentColor=field.style.backgroundColor;
+
+if (action == 'over' && currentColor.toLowerCase() == defaultColor.toLowerCase()) {
+newColor=pointerColor; }
+
+if (action == 'out' && currentColor.toLowerCase() == pointerColor.toLowerCase()) {
+newColor=defaultColor; }
+
+if (action == 'click' && currentColor.toLowerCase() == defaultColor.toLowerCase()) {
+newColor=markColor; }
+if (action == 'click' && currentColor.toLowerCase() == pointerColor.toLowerCase()) {
+newColor=markColor; }
+if (action == 'click' && currentColor.toLowerCase() == markColor.toLowerCase()) {
+newColor=pointerColor; }
+
+if (newColor) {
+field.style.backgroundColor=newColor; }
+}
+</SCRIPT>

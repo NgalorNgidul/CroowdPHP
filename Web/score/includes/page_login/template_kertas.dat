@@ -1,0 +1,22 @@
+<table border=0 cellPadding=0 cellSpacing=0>
+<TBODY leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+    <TR cellPadding=0 cellSpacing=0>
+      <TD><IMG border=0 cellPadding=0 cellSpacing=0 src="includes/page_login/img/topleft.gif"></TD>
+      <TD align="middle" background="includes/page_login/img/top.gif" ><FONT color=#0033cc>[---JUDUL-FORM---]</FONT></TD>
+      <TD><IMG border=0 cellPadding=0 cellSpacing=0 src="includes/page_login/img/topright.gif"></TD>
+    </TR>
+
+    <TR cellPadding=0 cellSpacing=0>
+      <TD background="includes/page_login/img/left.gif"></TD>
+      <TD valign="top">[---TEMPAT-FORM---]</TD>
+      <TD background="includes/page_login/img/right.gif"></TD>
+    </TR>
+
+    <TR> 
+      <TD><IMG border=0 cellPadding=0 cellSpacing=0 src="includes/page_login/img/leftbottom.gif"></TD>
+  	  <TD background="includes/page_login/img/bottom.gif"></TD>
+      <TD><IMG src="includes/page_login/img/rightbottom.gif" border=0 cellPadding=0 cellSpacing=0></TD>
+    </TR>
+
+</TBODY>
+</table>
