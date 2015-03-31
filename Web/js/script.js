@@ -135,17 +135,17 @@ $(function(){
 	
 	/* Loadmore button on search results
 	---------------------------------------------------------- */	
-    $('#showmoreresults').bind('click', function (e) {
-        _self = $(this);
-        _self.text('Loading...')
-        $.ajax({
-            url: "ajax/search-results.php"
-        }).done(function(data) {
-            $('#list-search-ajax').append(data);
-            _self.text('Show more projects')
-        });
-        return false;
-    });
+//    $('#showmoreresults').bind('click', function (e) {
+//        _self = $(this);
+//        _self.text('Loading...')
+//        $.ajax({
+//            url: "ajax/search-results.php"
+//        }).done(function(data) {
+//            $('#list-search-ajax').append(data);
+//            _self.text('Show more projects')
+//        });
+//        return false;
+//    });
 	
 	/* Contact form: Ajax & Validate
 	---------------------------------------------------------- */	

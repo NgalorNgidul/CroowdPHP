@@ -2,20 +2,21 @@
 include './function/function.php';
 
 if (isset($_GET['action']) == 'logout') {
-        logout();
-    } else {
-        
-    }
+    logout();
+} else {
+    
+}
 ?>
 
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <title>Selamat Datang di Croowd.co.id</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/normalize.css"/>
+        <link rel="stylesheet" href="css/table-alone.css"/>
         <link rel="stylesheet" href="css/jquery.sidr.light.css"/>
         <link rel="stylesheet" href="css/animate.min.css"/>
         <link rel="stylesheet" href="css/md-slider.css"/>
@@ -23,6 +24,9 @@ if (isset($_GET['action']) == 'logout') {
         <?php if ($_GET['content'] == 'start-project') { ?>
             <link href="css/css/wizard.css" rel="stylesheet" />
         <?php } ?>
+                    <script type="text/javascript" src="js/raphael-min.js"></script>
+
+
         <!--[if lte IE 7]>
         <link rel="stylesheet" href="css/ie7.css"/>
         <![endif]-->
@@ -32,7 +36,9 @@ if (isset($_GET['action']) == 'logout') {
         <link rel="stylesheet" href="css/responsive.css"/>
         <!--[if lt IE 9]>
         <script type="text/javascript" src="js/html5.js"></script>
+        
         <![endif]-->
+            <script type="text/javascript" src="js/jquery.min.js"></script>
 
 
     </head>
@@ -70,20 +76,19 @@ if (isset($_GET['action']) == 'logout') {
                                 <?php } ?>
                             </div>
                             <div class="form-search">
-                                <form action="#">
+                                <!--<form onsubmit="return searchProyek();">-->
                                     <label for="sys_txt_keyword">
-                                        <input id="sys_txt_keyword" class="txt-keyword" type="text" placeholder="Cari proyek"/>
+                                        <input id="sys_txt_keyword" onchange="searchProyek();" class="txt-keyword" type="text" value="<?=$_GET['parameter'];?>" placeholder="Cari proyek"/>
                                     </label>
-
-                                    <button class="btn-search" type="reset"><i class="icon iMagnifier"></i></button>
+                                    <button class="btn-search" onclick="searchProyek();"><i class="icon iMagnifier"></i></button>
                                     <button class="btn-reset-keyword" type="reset"><i class="icon iXHover"></i></button>
 
-                                </form>
+                                <!--</form>-->
                             </div>
                         </div>
                         <div class="header-left">
                             <h1 id="logo">
-                                <a href="index.html"><img src="images/logo.png" alt="$SITE_NAME"/></a>
+                                <a href="."><img src="images/logo.png" alt="$SITE_NAME"/></a>
                             </h1>
                             <!--<div class="main-nav clearfix">
                                 <div class="nav-item">
@@ -102,7 +107,7 @@ if (isset($_GET['action']) == 'logout') {
             </header><!--end: #header -->
             <span id="setBodys">
                 <?php
-                if ($_GET['content'] == 'start-project') {
+                if ($_GET['content'] != null) {
                     include"index2.php";
                 } else {
                     include"index1.php";
@@ -192,8 +197,12 @@ if (isset($_GET['action']) == 'logout') {
                 <div class="clear"></div>
             </div>
         </div>
-        <script type="text/javascript" src="js/raphael-min.js"></script>
-        <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+                       
+        <script type="text/javascript" src="js/autoNumeric-1.9.34.js"></script>
+
+            
+        <!--<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>-->
+        
         <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
         <script type="text/javascript" src="js/jquery.touchwipe.min.js"></script>
         <script type="text/javascript" src="js/md_slider.js"></script>
@@ -209,20 +218,21 @@ if (isset($_GET['action']) == 'logout') {
         <script type="text/javascript" src="js/js.js"></script>
         <script type="text/javascript" src="js/script.js"></script>
         <script>
-            (function (i, s, o, g, r, a, m) {
-                i['GoogleAnalyticsObject'] = r;
-                i[r] = i[r] || function () {
-                    (i[r].q = i[r].q || []).push(arguments)
-                }, i[r].l = 1 * new Date();
-                a = s.createElement(o),
-                        m = s.getElementsByTagName(o)[0];
-                a.async = 1;
-                a.src = g;
-                m.parentNode.insertBefore(a, m)
-            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
-            ga('create', 'UA-20585382-5', 'megadrupal.com');
-            ga('send', 'pageview');
+           
+//            (function (i, s, o, g, r, a, m) {
+//                i['GoogleAnalyticsObject'] = r;
+//                i[r] = i[r] || function () {
+//                    (i[r].q = i[r].q || []).push(arguments)
+//                }, i[r].l = 1 * new Date();
+//                a = s.createElement(o),
+//                        m = s.getElementsByTagName(o)[0];
+//                a.async = 1;
+//                a.src = g;
+//                m.parentNode.insertBefore(a, m)
+//            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+//
+//            ga('create', 'UA-20585382-5', 'megadrupal.com');
+//            ga('send', 'pageview');
 
         </script>
     </body>
