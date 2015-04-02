@@ -11,6 +11,6 @@
      data-padding-left="10" data-padding-right="10" data-start="0"
      data-stop="0" data-easein="random" data-easeout="keep" >
     <!--<a href="#" class="btn btn-gray">Learn more</a> -->
-    <button type="submit" class="btn btn-blue" style="width: 240px;height: 60px;font-size: 18px;" onclick="menuButton(2,'mulai-berinventasi');">Mulai Berinvestasi</button>
+    <button type="submit" class="btn btn-blue" style="width: 240px;height: 60px;font-size: 18px;" onclick="menuButton(2,'mulai-berinvestasi');">Mulai Berinvestasi</button>
 
 </div>
