@@ -1236,7 +1236,7 @@ a.fc-gray-dark,.fc-gray-dark{color: #999}
 }
 
 #header .header-content{
-    padding: 22px 0;
+    padding: 15px 0 20px 0;
     vertical-align:middle;
 }
 
@@ -1261,7 +1261,7 @@ a.fc-gray-dark,.fc-gray-dark{color: #999}
 #logo{
     float: left;
     margin: 0;
-    padding:9px 20px 0px 0px;
+    padding:0px 20px 0px 0px;
     width: auto;
     /*padding:0;*/
     /*width: 170px;*/
@@ -1269,7 +1269,7 @@ a.fc-gray-dark,.fc-gray-dark{color: #999}
 
 #header .main-nav{
     float: left;
-    padding: 9px 0px 0px 0px;
+    padding: 30px 0px 0px 0px;
 }
 
 .main-nav .nav-item{
@@ -1298,12 +1298,18 @@ a.fc-gray-dark,.fc-gray-dark{color: #999}
     height: 21px;
     /*margin: 30px 28px 0 28px;*/
 }
-#header .account-panel{
-    margin-left: 38px;
+
+#header .form-search {
     float: right;
+    margin: 21px 0px 0px 0px;
+}
+
+#header .account-panel{
+    margin-right: 0px;
+    float: right;
+    padding: 22px 0px 0px 10px;
 }
 #header .account-panel .btn{
-    /*float: left;*/
     margin-left: 8px;
 }
 #header .account-panel .btn:first-child{

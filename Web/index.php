@@ -73,10 +73,11 @@ if (isset($_GET['action']) == 'logout') {
                                 <div class="nav-item">
                                     <a href="aboutus.html" class="nav-title">Tentang kami</a>
                                 </div>
+                                <span class="sep"></span>
                                 <div class="nav-item">
                                     <a href="howitworks.html" class="nav-title">Cara kerja</a>
                                 </div>
-                                <span class="sep">
+                                <span class="sep"></span>
                                 <div class="nav-item">
                                     <a href="aboutus.html" class="nav-title">Test Menu 2</a>
                                 </div>
