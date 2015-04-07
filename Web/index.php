@@ -77,14 +77,6 @@ if (isset($_GET['action']) == 'logout') {
                                 <div class="nav-item">
                                     <a href="howitworks.html" class="nav-title">Cara kerja</a>
                                 </div>
-                                <span class="sep"></span>
-                                <div class="nav-item">
-                                    <a href="aboutus.html" class="nav-title">Test Menu 2</a>
-                                </div>
-                                <!--<div class="nav-item">
-                                    <a href="index.php?content=start-project" id="start-project" class="nav-title">Mulai</a>
-                                    <p class="rs nav-description">Proyek baru anda</p>
-                                </div>-->
                             </div>
                         </div>
                         <div class="header-right">
