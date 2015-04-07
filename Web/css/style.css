@@ -5,7 +5,7 @@
 # Websites:  http://www.megadrupal.com -  Email: info@megadrupal.com
 --------------------------------------------------------------------------
 
-	1.	Reset
+    1.	Reset
     2.	960 Grid System
     3.	Common css (Link, button, margin class, text align class...)
     4.	Layout extend
@@ -829,7 +829,7 @@ a.fc-gray-dark,.fc-gray-dark{color: #999}
     font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
     padding: 7px 32px 9px 43px;
-    width: 143px;
+    width: 160px;
     display: inline-block;
     outline: none;
     background-color: #f9f9f9;
@@ -1210,6 +1210,7 @@ a.fc-gray-dark,.fc-gray-dark{color: #999}
     background: #fff;
     border-bottom: 1px solid #d4d4d4;
 }
+
 #header .wrap-top-menu{
     background: #3e4b51;
     padding: 9px 0;
@@ -1236,19 +1237,33 @@ a.fc-gray-dark,.fc-gray-dark{color: #999}
 
 #header .header-content{
     padding: 22px 0;
+    vertical-align:middle;
 }
+
+#headerwrapper{
+    margin:0 auto;
+    overflow:hidden;
+}
+
+#headerwrapper>div{
+    display:inline-block;
+    vertical-align:middle;
+}
+
 .header-content .header-right{
     float: right;
 }
 .header-content .header-left{
     float: left;
 }
+
 #logo{
     float: left;
     margin: 0;
     padding:6px 0 0 0;
     width: 240px;
 }
+
 #header .main-nav{
     float: left;
 }

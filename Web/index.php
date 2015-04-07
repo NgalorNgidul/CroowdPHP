@@ -64,8 +64,26 @@ if (isset($_GET['action']) == 'logout') {
                          </div>
                      </div> --><!-- end: .wrap-top-menu -->
                 <div class="container_12 clearfix">
-                    <div class="grid_12 header-content">
-                        <div id="sys_header_right" class="header-right">
+                    <div id="headerwrapper" class="grid_12 header-content">
+			<div>
+                        <div class="header-left">
+                            <div id="logo">
+                                <a href="."><img src="images/logo.png" alt="$SITE_NAME"/></a>
+                            </div>
+                            <div class="main-nav clearfix">
+                                <div class="nav-item">
+                                    <a href="aboutus.html" class="nav-title">Tentang kami</a>
+                                </div>
+                                <span class="sep">
+                                <!--<div class="nav-item">
+                                    <a href="index.php?content=start-project" id="start-project" class="nav-title">Mulai</a>
+                                    <p class="rs nav-description">Proyek baru anda</p>
+                                </div>-->
+                            </div>
+                        </div>
+			</div>
+			<div>
+                        <div class="header-right">
                             <div class="account-panel">
                                 <?php if ($_COOKIE['simbiosis'] == null) { ?>
                                     <a href="#" class="btn btn-red sys_show_popup_login">Register</a>
@@ -86,22 +104,7 @@ if (isset($_GET['action']) == 'logout') {
                                 <!--</form>-->
                             </div>
                         </div>
-                        <div class="header-left">
-                            <h1 id="logo">
-                                <a href="."><img src="images/logo.png" alt="$SITE_NAME"/></a>
-                            </h1>
-                            <!--<div class="main-nav clearfix">
-                                <div class="nav-item">
-                                    <a href="category.html" class="nav-title">Proyek</a>
-                                    <p class="rs nav-description">Lis proyek</p>
-                                </div>
-                                <span class="sep"></span>
-                                <div class="nav-item">
-                                    <a href="index.php?content=start-project" id="start-project" class="nav-title">Mulai</a>
-                                    <p class="rs nav-description">Proyek baru anda</p>
-                                </div>
-                            </div>-->
-                        </div>
+			</div>
                     </div>
                 </div>
             </header><!--end: #header -->
