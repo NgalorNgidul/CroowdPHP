@@ -1,7 +1,7 @@
 
 <?php
 
-if($_GET['more']!=null){
+if(isset($_GET['more']) && $_GET['more']!=null){
     echo 10;
 } else {
 
