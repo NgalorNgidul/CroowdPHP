@@ -1261,10 +1261,10 @@ a.fc-gray-dark,.fc-gray-dark{color: #999}
 #logo{
     float: left;
     margin: 0;
-    /*padding:3px 20px 0px 0px;*/
-    /*width: auto;*/
-    padding:0;
-    width: 170px;
+    padding:3px 20px 0px 0px;
+    width: auto;
+    /*padding:0;*/
+    /*width: 170px;*/
 }
 
 #header .main-nav{
@@ -1274,8 +1274,8 @@ a.fc-gray-dark,.fc-gray-dark{color: #999}
 
 .main-nav .nav-item{
     float: left;
-    /*padding: 0px 15px;*/
-    padding: 30px 10px 0px 0px;
+    padding: 0px 15px;
+    /*padding: 30px 10px 0px 0px;*/
 }
 .main-nav .nav-title{
     text-transform: uppercase;
@@ -1296,7 +1296,7 @@ a.fc-gray-dark,.fc-gray-dark{color: #999}
     float: left;
     border-left: 1px dashed #d8dbdc;
     height: 21px;
-    margin: 30px 28px 0 28px;
+    /*margin: 30px 28px 0 28px;*/
 }
 #header .account-panel{
     margin-left: 38px;
