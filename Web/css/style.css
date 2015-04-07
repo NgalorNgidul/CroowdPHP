@@ -829,7 +829,7 @@ a.fc-gray-dark,.fc-gray-dark{color: #999}
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     padding: 7px 32px 9px 43px;
-    width: 160px;
+    width: 200px;
     display: inline-block;
     outline: none;
     background-color: #f9f9f9;
@@ -1261,17 +1261,21 @@ a.fc-gray-dark,.fc-gray-dark{color: #999}
 #logo{
     float: left;
     margin: 0;
-    padding:3px 20px 0px 0px;
-    width: auto;
+    /*padding:3px 20px 0px 0px;*/
+    /*width: auto;*/
+    padding:0;
+    width: 170px;
 }
 
 #header .main-nav{
     float: left;
     padding: 3px 0px 0px 0px;
 }
+
 .main-nav .nav-item{
     float: left;
-    padding: 0px 15px;
+    /*padding: 0px 15px;*/
+    padding: 30px 10px 0px 0px;
 }
 .main-nav .nav-title{
     text-transform: uppercase;
@@ -1292,6 +1296,7 @@ a.fc-gray-dark,.fc-gray-dark{color: #999}
     float: left;
     border-left: 1px dashed #d8dbdc;
     height: 21px;
+    margin: 30px 28px 0 28px;
 }
 #header .account-panel{
     margin-left: 38px;
