@@ -7,7 +7,7 @@
                 <div class="box-white">
                     <?php
                     if ($_COOKIE['simbiosis'] == null && $_GET['bungapilih'] != null) {
-                        echo '<span style="color:red;font-weight:bold;">Maaf Anda harus melakukan sign in terlebih dahulu</span>';
+                      //  echo '<span style="color:red;font-weight:bold;">Maaf Anda harus melakukan sign in terlebih dahulu</span>';
                     
                         
                          include 'component/register/register_new.html.php';
