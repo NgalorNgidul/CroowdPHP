@@ -1,21 +1,16 @@
 <div class="container_12 main-footer">
     <div class="grid_3 about-us">
-        <h3 class="rs title">About</h3>
-        <p class="rs description">Donec rutrum elit ac arcu bibendum rhoncus in vitae turpis. Quisque fermentum gravida eros non faucibus. Curabitur fermentum, arcu sed cursus commodo.</p>
-        <p class="rs email"><a class="fc-default  be-fc-orange" href="mailto:info@megadrupal.com">info@megadrupal.com</a></p>
-        <p class="rs">+1 (555) 555 - 55 - 55</p>
+        <h3 class="rs title">Alamat kami</h3>
+        <p class="rs description">Alamat surat menyurat bisa ditujukan ke PT. DIGI LARAS PROSPERINDO, Epicentrum Walk Office Suite 
+	7th Floor Unit 0709A, Jl. H R Rasuna Said, Jakarta 12960</p>
+        <p class="rs email"><a class="fc-default  be-fc-orange" href="mailto:info@croowd.co.id">info@croowd.co.id</a></p>
+        <p class="rs">+62 (21) 555 - 55 - 55</p>
     </div><!--end: .contact-info -->
-    <div class="grid_3 recent-tweets">
-        <h3 class="rs title">Recent Tweets</h3>
-        <div class="lst-tweets" id="sys_lst_tweets">
-
-        </div>
-    </div><!--end: .recent-tweets -->
     <div class="clear clear-2col"></div>
     <div class="grid_3 email-newsletter">
-        <h3 class="rs title">Newsletter Signup</h3>
+        <h3 class="rs title">Berlangganan Newsletter</h3>
         <div class="inner">
-            <p class="rs description">Nam aliquet, velit quis consequat interdum, odio dolor elementum.</p>
+            <p class="rs description">Bagi anda yang ingin mendapatkan informasi teraktual tentang croowdfunding syariah, daftarkan email anda di bawah ini.</p>
             <form action="#">
                 <div class="form form-email">
                     <label class="lbl" for="txt-email">
@@ -27,21 +22,13 @@
         </div>
     </div><!--end: .email-newsletter -->
     <div class="grid_3">
-        <h3 class="rs title">Discover &amp; Create</h3>
+        <h3 class="rs title">Informasi</h3>
         <div class="footer-menu">
             <ul class="rs">
-                <li><a class="be-fc-orange" href="#">What is Kickstars</a></li>
-                <li><a class="be-fc-orange" href="#">Start a project</a></li>
-                <li><a class="be-fc-orange" href="#">Project Guidlines</a></li>
-                <li><a class="be-fc-orange" href="#">Press</a></li>
-                <li><a class="be-fc-orange" href="#">Stats</a></li>
+                <li><a class="be-fc-orange" href="#about" onclick="onMenu('about')">Tentang Croowd</a></li>
             </ul>
             <ul class="rs">
-                <li><a class="be-fc-orange" href="#">Staff Picks</a></li>
-                <li><a class="be-fc-orange" href="#">Popular</a></li>
-                <li><a class="be-fc-orange" href="#">Recent</a></li>
-                <li><a class="be-fc-orange" href="#">Small Projects</a></li>
-                <li><a class="be-fc-orange" href="#">Most Funded</a></li>
+                <li><a class="be-fc-orange" href="#">Menjadi anggota</a></li>
             </ul>
             <div class="clear"></div>
         </div>
