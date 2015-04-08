@@ -104,7 +104,7 @@ if (isset($_GET['action']) == 'logout') {
             </header><!--end: #header -->
             <span id="setBodys">
                 <?php
-                if (isset($_GET['content']) && $_GET['content'] != null) {
+                if ($_GET['content'] != null) {
                     include"index2.php";
                 } else {
                     include"index1.php";
