@@ -8,7 +8,10 @@
                     <?php
                     if ($_COOKIE['simbiosis'] == null && $_GET['bungapilih'] != null) {
                         echo '<span style="color:red;font-weight:bold;">Maaf Anda harus melakukan sign in terlebih dahulu</span>';
-                    }
+                    
+                        
+                         include 'component/register/register_new.html.php';
+                    } else {
                     ?>
                     <form id="loan-form" class="clearfix" action="#" onsubmit="return sendButton();">
                         <p class="rs pb30">offers low rate loans with no early repayment fees..</p>
@@ -57,6 +60,7 @@
                         <input type="hidden" name="bungapilih" id="bungapilih" value="" />
                         <input type="hidden" name="perbulanpilih" id="perbulanpilih" value="" />
                     </form>
+                    <?php } ?>
                 </div>
             </div><!--end: .box-list-comment -->
         </div>
