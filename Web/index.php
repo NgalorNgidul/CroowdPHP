@@ -21,10 +21,10 @@ if (isset($_GET['action']) == 'logout') {
         <link rel="stylesheet" href="css/animate.min.css"/>
         <link rel="stylesheet" href="css/md-slider.css"/>
         <link rel="stylesheet" href="css/style.css"/>
-        <?php if ($_GET['content'] == 'start-project') { ?>
+        <?php if (isset($_GET['content']) && $_GET['content'] == 'start-project') { ?>
             <link href="css/css/wizard.css" rel="stylesheet" />
         <?php } ?>
-                    <script type="text/javascript" src="js/raphael-min.js"></script>
+        <script type="text/javascript" src="js/raphael-min.js"></script>
 
 
         <!--[if lte IE 7]>
@@ -64,10 +64,24 @@ if (isset($_GET['action']) == 'logout') {
                          </div>
                      </div> --><!-- end: .wrap-top-menu -->
                 <div class="container_12 clearfix">
-                    <div class="grid_12 header-content">
-                        <div id="sys_header_right" class="header-right">
+                    <div id="headerwrapper" class="grid_12 header-content">
+                        <div class="header-left">
+                            <div id="logo">
+                                <a href="."><img src="images/logo.png" alt="$SITE_NAME"/></a>
+                            </div>
+                            <div class="main-nav clearfix">
+                                <div class="nav-item">
+                                    <a href="#about" onclick="onMenu('about')" id="about" class="nav-title">Tentang kami</a>
+                                </div>
+                                <span class="sep"></span>
+                                <div class="nav-item">
+                                    <a href="#howitworks" onclick="onMenu('cara-kerja')" id="howitworks"  class="nav-title">Cara kerja</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header-right">
                             <div class="account-panel">
-                                <?php if ($_COOKIE['simbiosis'] == null) { ?>
+                                <?php if (isset($_COOKIE['simbiosis']) && $_COOKIE['simbiosis'] == null) { ?>
                                     <a href="#" class="btn btn-red sys_show_popup_login">Register</a>
                                     <a href="#" class="btn btn-black sys_show_popup_login">Login</a>
                                 <?php } else { ?>
@@ -86,28 +100,12 @@ if (isset($_GET['action']) == 'logout') {
                                 <!--</form>-->
                             </div>
                         </div>
-                        <div class="header-left">
-                            <h1 id="logo">
-                                <a href="."><img src="images/logo.png" alt="$SITE_NAME"/></a>
-                            </h1>
-                            <!--<div class="main-nav clearfix">
-                                <div class="nav-item">
-                                    <a href="category.html" class="nav-title">Proyek</a>
-                                    <p class="rs nav-description">Lis proyek</p>
-                                </div>
-                                <span class="sep"></span>
-                                <div class="nav-item">
-                                    <a href="index.php?content=start-project" id="start-project" class="nav-title">Mulai</a>
-                                    <p class="rs nav-description">Proyek baru anda</p>
-                                </div>
-                            </div>-->
-                        </div>
                     </div>
                 </div>
             </header><!--end: #header -->
             <span id="setBodys">
                 <?php
-                if ($_GET['content'] != null) {
+                if (isset($_GET['content']) && $_GET['content'] != null) {
                     include"index2.php";
                 } else {
                     include"index1.php";
