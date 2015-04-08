@@ -81,12 +81,11 @@ if (isset($_GET['action']) == 'logout') {
                         </div>
                         <div class="header-right">
                             <div class="account-panel">
-                                <?php if (isset($_COOKIE['simbiosis']) && $_COOKIE['simbiosis'] == null) { ?>
-                                    <a href="#" class="btn btn-red sys_show_popup_login">Register</a>
-                                    <a href="#" class="btn btn-black sys_show_popup_login">Login</a>
+                                <?php if ($_COOKIE['simbiosis'] == null) { ?> 
+                                    <!-- <a href="#" class="btn btn-red sys_show_popup_login">Register</a>-->
+                                    <a href="index.php?action=logout" class="btn btn-black sys_show_popup_login">Masuk</a>
                                 <?php } else { ?>
-                                    <a href="index.php?action=logout" class="btn btn-red">Log out</a>
-
+                                    <a href="#register" onclick="onMenu('register')" class="btn btn-red">Keluar</a>
                                 <?php } ?>
                             </div>
                             <div class="form-search">
