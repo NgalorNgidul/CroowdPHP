@@ -98,10 +98,13 @@ function sendButton() {
    var termpilih = $('#termpilih').val();
    var bungapilih = $('#bungapilih').val();
    var perbulanpilih = $('#perbulanpilih').val();
+   var term = parseFloat(termpilih)*12;
+   var value = parseFloat(perbulanpilih)*parseFloat(term);
     if (termpilih == '' && bungapilih == '' && perbulanpilih  == '') {
         alert("Mohon Pilih Salah Satu Term yang anda butuhkan");
     } else {
-        location.href = '?content=cari-pinjaman&termpilih'+termpilih+'&bungapilih='+bungapilih+'&perbulanpilih='+perbulanpilih;
+      //  location.href = '?content=cari-pinjaman&termpilih='+termpilih+'&bungapilih='+bungapilih+'&perbulanpilih='+perbulanpilih;
+      location.href = '?content=cari-pinjaman&term='+term+'&value='+value;
 
     }
 
