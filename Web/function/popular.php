@@ -41,13 +41,13 @@ $rows = json_decode($data);
                     <div class="bottom-project-info clearfix">
                         <div class="line-progress">
                             <div class="bg-progress">
-                                <span  style="width: 50%"></span>
+                                <span  style="width: <?= $rows[$i]->pledgedPersentage; ?>%"></span>
                             </div>
                         </div>
                         <div class="group-fee clearfix">
                             <div class="fee-item">
                                 <p class="rs lbl">Inv</p>
-                                <span class="val">50%</span>
+                                <span class="val"><?= $rows[$i]->pledgedPersentage; ?>%</span>
                             </div>
                             <div class="sep"></div>
                             <div class="fee-item">
@@ -57,7 +57,7 @@ $rows = json_decode($data);
                             <div class="sep"></div>
                             <div class="fee-item">
                                 <p class="rs lbl">Hari</p>
-                                <span class="val">25</span>
+                                <span class="val"><?= $rows[$i]->remainingDay; ?></span>
                             </div>
                         </div>
                     </div>
