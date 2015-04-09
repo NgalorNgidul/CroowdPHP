@@ -20,6 +20,8 @@ if (isset($_GET['action']) == 'logout') {
         <link rel="stylesheet" href="css/jquery.sidr.light.css"/>
         <link rel="stylesheet" href="css/animate.min.css"/>
         <link rel="stylesheet" href="css/md-slider.css"/>
+        
+    <link rel="stylesheet" href="css/responsiveslides.css"/>
         <link rel="stylesheet" href="css/style.css"/>
         <?php if (isset($_GET['content']) && $_GET['content'] == 'start-project') { ?>
             <link href="css/css/wizard.css" rel="stylesheet" />
@@ -168,6 +170,8 @@ if (isset($_GET['action']) == 'logout') {
         <script type="text/javascript" src="js/md_slider.js"></script>
         <script type="text/javascript" src="js/jquery.sidr.min.js"></script>
         <script type="text/javascript" src="js/jquery.tweet.min.js"></script>
+        
+    <script type="text/javascript" src="js/responsiveslides.min.js"></script>
         <script type="text/javascript" src="js/pie.js"></script>
         <?php if ($_GET['content'] == 'start-project') { ?>
             <script type="text/javascript" src="component/start-project/start-project.js"></script>
