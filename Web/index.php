@@ -81,7 +81,7 @@ if (isset($_GET['action']) == 'logout') {
                         </div>
                         <div class="header-right">
                             <div class="account-panel">
-                                <?php if ($_COOKIE['simbiosis'] == null) { ?> 
+                                <?php if (isset($_COOKIE['simbiosis']) == null) { ?> 
                                     <!-- <a href="#" class="btn btn-red sys_show_popup_login">Register</a>-->
                                     <a href="index.php?action=logout" class="btn btn-black sys_show_popup_login">Masuk</a>
                                 <?php } else { ?>
@@ -104,7 +104,7 @@ if (isset($_GET['action']) == 'logout') {
             </header><!--end: #header -->
             <span id="setBodys">
                 <?php
-                if ($_GET['content'] != null) {
+                if (isset($_GET['content']) != null) {
                     include"index2.php";
                 } else {
                     include"index1.php";
