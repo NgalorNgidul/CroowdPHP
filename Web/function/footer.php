@@ -25,7 +25,7 @@
         <h3 class="rs title">Informasi</h3>
         <div class="footer-menu">
             <ul class="rs">
-                <li><a class="be-fc-orange" href="#about" onclick="onMenu('about')">Tentang Croowd</a></li>
+                <li><a class="be-fc-orange" href="?content=about">Tentang Croowd</a></li>
             </ul>
             <ul class="rs">
                 <li><a class="be-fc-orange" href="#">Menjadi anggota</a></li>
