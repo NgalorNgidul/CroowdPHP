@@ -70,7 +70,7 @@ function itemTerm() {
 
 
             include = include + '<tr id="tr' + no + '">';
-            include = include + '<td id="term' + no + '" style="width:50%"><input type="radio" name="cek" value="' + no + '" onclick="pilihTerm(' + no + ');"> ' + no + ' Years<input type="hidden" id="termfield' + no + '" value="' + no + '"/></td>';
+            include = include + '<td id="term' + no + '" style="width:50%"><input type="radio" name="cek" value="' + no + '" onclick="pilihTerm(' + no + ');"> ' + no + ' Tahun<input type="hidden" id="termfield' + no + '" value="' + no + '"/></td>';
             include = include + '<td id="apr' + no + '" style="width:25%;text-align:center;">' + bunga + ' %<input type="hidden" id="bungafield' + no + '" value="' + bunga + '"/></td>';
             include = include + '<td id="month' + no + '" style="width:25%;text-align:right;">' + moneyFormat(perbulan.toFixed(2)) + ' IDR<input type="hidden" id="perbulanfield' + no + '" value="' + perbulan + '"/></td>';
             include = include + ' </tr>';

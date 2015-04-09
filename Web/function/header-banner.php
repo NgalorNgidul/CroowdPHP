@@ -9,14 +9,12 @@
 				<div class="md-object rs slide-title" data-x="50" data-y="100"
 					data-width="900" data-height="30" data-start="700" data-stop="5500"
 					data-easein="random" data-easeout="keep">
-					<p>Search Money for Your Creative Ideas?</p>
+					<p>Mencari dana segar untuk bisnis anda?</p>
 				</div>
 				<div class="md-object rs slide-description" data-x="150" data-y="200"
 					data-width="700" data-height="90" data-start="1400"
 					data-stop="7500" data-easein="random" data-easeout="keep">
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-						Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-						penatibus et magnis dis parturient monte.</p>
+					<p>Croowd membantu anda sebagai pelaku bisnis untuk mendapatkan dana segar untuk bisnis yang sedang anda jalankan. Bergabunglah bersama kami dan para pelaku bisnis yang lain menuju keberhasilan.</p>
 				</div>
 				<?php include 'button-money.php'; ?>
                             <!--
@@ -37,13 +35,12 @@
 				<div class="md-object rs slide-title" data-x="20" data-y="188"
 					data-width="390" data-height="30" data-start="700" data-stop="5500"
 					data-easein="random" data-easeout="random">
-					<p>A creative engine</p>
+					<p>Croowd</p>
 				</div>
 				<div class="md-object rs slide-description2" data-x="20"
 					data-y="250" data-width="390" data-height="100" data-start="1400"
 					data-stop="4500" data-easein="random" data-easeout="random">
-					<p>Mauris volutpat, lectus vitae pretium sagittis, turpis augue
-						euismod libero</p>
+					<p>Bersama kita bangun komunitas finansial yang baik</p>
 				</div>
 				<div class="md-object" data-x="454" data-y="44" data-width="327"
 					data-height="268" data-start="1000" data-stop="5500"
@@ -82,11 +79,8 @@
 					data-padding-bottom="30" data-padding-left="35"
 					data-padding-right="35" data-start="300" data-stop="3600"
 					data-easein="random" data-easeout="keep">
-					<h2 class="rs slide-title">Start your project today</h2>
-					<p class="rs slide-description2">Lorem ipsum dolor sit amet,
-						consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-						Aenean massa. Cum sociis natoque penatibus et magnis dis
-						parturient monte.</p>
+					<h2 class="rs slide-title">Jadilah investor</h2>
+					<p class="rs slide-description2">Investasikan dana anda untuk bisnis-bisnis yang menarik dan memiliki potensi untuk berkembang. Jadilah bagian dari keberhasilan UMKM Indonesia.</p>
 				</div>
                             <?php include 'button-money.php'; ?>
 			</div>
