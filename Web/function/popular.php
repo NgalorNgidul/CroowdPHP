@@ -1,7 +1,7 @@
 <div class="container_12">
     <div class="grid_12 wrap-title">
-        <h2 class="common-title">Popular</h2>
-        <a class="be-fc-orange" href="category.html">View all</a>
+        <h2 class="common-title">Proyek Populer</h2>
+        <a class="be-fc-orange" href="category.html">Lihat semua</a>
     </div>
     <div class="clear"></div>
     <div class="lst-popular-project clearfix">
@@ -13,12 +13,12 @@
                             <img src="images/ex/th-292x204-1.jpg" alt="$TITLE">
                         </a>
                         <div class="wrap-short-detail">
-                            <h3 class="rs acticle-title"><a class="be-fc-orange" href="project.html">Project title</a></h3>
-                            <p class="rs tiny-desc">by <a href="profile.html" class="fw-b fc-gray be-fc-orange">John Doe</a></p>
-                            <p class="rs title-description">Nam sit amet est sapien, a faucibus purus. Sed commodo facilisis tempus. Pellentesque placerat elementum adipiscing.</p>
+                            <h3 class="rs acticle-title"><a class="be-fc-orange" href="project.html">Renovasi Rumah</a></h3>
+                            <p class="rs tiny-desc">oleh <a href="profile.html" class="fw-b fc-gray be-fc-orange">Syahrial</a></p>
+                            <p class="rs title-description">Di perlukan dana untuk renovasi rumah sederhana dengan luas 36m.</p>
                             <p class="rs project-location">
                                 <i class="icon iLocation"></i>
-                                New York, NY
+                                Depok, Jawa Barat
                             </p>
                         </div>
                     </div>
@@ -31,17 +31,17 @@
                     </div>
                     <div class="group-fee clearfix">
                         <div class="fee-item">
-                            <p class="rs lbl">Funded</p>
+                            <p class="rs lbl">Inv</p>
                             <span class="val">50%</span>
                         </div>
                         <div class="sep"></div>
                         <div class="fee-item">
-                            <p class="rs lbl">Pledged</p>
-                            <span class="val">$38,000</span>
+                            <p class="rs lbl">Nilai</p>
+                            <span class="val">Rp 50.000.000</span>
                         </div>
                         <div class="sep"></div>
                         <div class="fee-item">
-                            <p class="rs lbl">Days Left</p>
+                            <p class="rs lbl">Hari</p>
                             <span class="val">25</span>
                         </div>
                     </div>
@@ -56,12 +56,12 @@
                             <img src="images/ex/th-192x135-1.jpg" alt="$TITLE">
                         </a>
                         <div class="wrap-short-detail">
-                            <h3 class="rs acticle-title"><a class="be-fc-orange" href="project.html">Project title</a></h3>
-                            <p class="rs tiny-desc">by <a href="profile.html" class="fw-b fc-gray be-fc-orange">John Doe</a></p>
-                            <p class="rs title-description">Nam sit amet est sapien, a faucibus purus. Sed commodo facilisis tempus. Pellentesque placerat elementum adipiscing.</p>
+                            <h3 class="rs acticle-title"><a class="be-fc-orange" href="project.html">Kafe Lesehan</a></h3>
+                            <p class="rs tiny-desc">oleh <a href="profile.html" class="fw-b fc-gray be-fc-orange">Suhendro</a></p>
+                            <p class="rs title-description">Bisnis kafe dengan model lesehan saat ini sedang mulai tumbuh di pinggiran kota Depok.</p>
                             <p class="rs project-location">
                                 <i class="icon iLocation"></i>
-                                New York, NY
+                                Depok, Jawa Barat
                             </p>
                         </div>
                     </div>
@@ -74,17 +74,17 @@
                     </div>
                     <div class="group-fee clearfix">
                         <div class="fee-item">
-                            <p class="rs lbl">Funded</p>
+                            <p class="rs lbl">Inv</p>
                             <span class="val">98%</span>
                         </div>
                         <div class="sep"></div>
                         <div class="fee-item">
-                            <p class="rs lbl">Pledged</p>
-                            <span class="val">$25,000</span>
+                            <p class="rs lbl">Nilai</p>
+                            <span class="val">Rp 15.000.000</span>
                         </div>
                         <div class="sep"></div>
                         <div class="fee-item">
-                            <p class="rs lbl">Days Left</p>
+                            <p class="rs lbl">Hari</p>
                             <span class="val">18</span>
                         </div>
                     </div>
@@ -100,12 +100,12 @@
                             <img src="images/ex/th-192x135-2.jpg" alt="$TITLE">
                         </a>
                         <div class="wrap-short-detail">
-                            <h3 class="rs acticle-title"><a class="be-fc-orange" href="project.html">Project title</a></h3>
-                            <p class="rs tiny-desc">by <a href="profile.html" class="fw-b fc-gray be-fc-orange">John Doe</a></p>
-                            <p class="rs title-description">Nam sit amet est sapien, a faucibus purus. Sed commodo facilisis tempus. Pellentesque placerat elementum adipiscing.</p>
+                            <h3 class="rs acticle-title"><a class="be-fc-orange" href="project.html">Kerajinan kayu</a></h3>
+                            <p class="rs tiny-desc">oleh <a href="profile.html" class="fw-b fc-gray be-fc-orange">Puguh</a></p>
+                            <p class="rs title-description">Penjualan kerajinan kayu menjadi bisnis yang tak pernah kenal waktu. Barang kerajinan dipesan langsung ke pengrajin di daerah Boyolali, dan dikerjakan dengan tangan.</p>
                             <p class="rs project-location">
                                 <i class="icon iLocation"></i>
-                                New York, NY
+                                Jakarta Selatan, DKI Jakarta
                             </p>
                         </div>
                     </div>
@@ -118,17 +118,17 @@
                     </div>
                     <div class="group-fee clearfix">
                         <div class="fee-item">
-                            <p class="rs lbl">Funded</p>
+                            <p class="rs lbl">Inv</p>
                             <span class="val">21%</span>
                         </div>
                         <div class="sep"></div>
                         <div class="fee-item">
-                            <p class="rs lbl">Pledged</p>
-                            <span class="val">$850K</span>
+                            <p class="rs lbl">Nilai</p>
+                            <span class="val">Rp 50.000.000</span>
                         </div>
                         <div class="sep"></div>
                         <div class="fee-item">
-                            <p class="rs lbl">Days Left</p>
+                            <p class="rs lbl">Hari</p>
                             <span class="val">2</span>
                         </div>
                     </div>
@@ -143,12 +143,12 @@
                             <img src="images/ex/th-192x135-3.jpg" alt="$TITLE">
                         </a>
                         <div class="wrap-short-detail">
-                            <h3 class="rs acticle-title"><a class="be-fc-orange" href="project.html">Project title</a></h3>
-                            <p class="rs tiny-desc">by <a href="profile.html" class="fw-b fc-gray be-fc-orange">John Doe</a></p>
-                            <p class="rs title-description">Nam sit amet est sapien, a faucibus purus. Sed commodo facilisis tempus. Pellentesque placerat elementum adipiscing.</p>
+                            <h3 class="rs acticle-title"><a class="be-fc-orange" href="project.html">Florist</a></h3>
+                            <p class="rs tiny-desc">oleh <a href="profile.html" class="fw-b fc-gray be-fc-orange">Nina</a></p>
+                            <p class="rs title-description">Kios penjualan bunga butuh tambahan modal. Lokasi yang berdekatan dengan rumah sakit membuat usaha kami cepat berkembang.</p>
                             <p class="rs project-location">
                                 <i class="icon iLocation"></i>
-                                New York, NY
+                                Depok, Jawa Barat
                             </p>
                         </div>
                     </div>
@@ -161,17 +161,17 @@
                     </div>
                     <div class="group-fee clearfix">
                         <div class="fee-item">
-                            <p class="rs lbl">Funded</p>
+                            <p class="rs lbl">Inv</p>
                             <span class="val">50%</span>
                         </div>
                         <div class="sep"></div>
                         <div class="fee-item">
-                            <p class="rs lbl">Pledged</p>
-                            <span class="val">$138,662</span>
+                            <p class="rs lbl">Nilai</p>
+                            <span class="val">Rp 5.000.000</span>
                         </div>
                         <div class="sep"></div>
                         <div class="fee-item">
-                            <p class="rs lbl">Days Left</p>
+                            <p class="rs lbl">Hari</p>
                             <span class="val">44</span>
                         </div>
                     </div>
