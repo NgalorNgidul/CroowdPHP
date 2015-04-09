@@ -71,11 +71,11 @@ if (isset($_GET['action']) == 'logout') {
                             </div>
                             <div class="main-nav clearfix">
                                 <div class="nav-item">
-                                    <a href="#about" onclick="onMenu('about')" id="about" class="nav-title">Tentang kami</a>
+                                    <a href="?content=about" id="about" class="nav-title">Tentang kami</a>
                                 </div>
                                 <span class="sep"></span>
                                 <div class="nav-item">
-                                    <a href="#howitworks" onclick="onMenu('cara-kerja')" id="howitworks"  class="nav-title">Cara kerja</a>
+                                    <a href="?content=cara-kerja"  id="howitworks"  class="nav-title">Cara kerja</a>
                                 </div>
                             </div>
                         </div>
