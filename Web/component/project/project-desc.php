@@ -10,17 +10,22 @@
             <h3 class="rs alternate-tab accordion-label">About</h3>
             <div class="tab-pane active accordion-content">
                 <div class="editor-content">
-                    <h3 class="rs title-inside"><?= $rows[$i]->title; ?></h3>
-                    <p class="rs post-by">by <a href="#" class="fw-b fc-gray be-fc-orange">Ray Sumser</a> in <span class="fw-b fc-gray">New York, NY</span></p>
-                    <p>Nam sit amet est sapien, a faucibus purus. Sed commodo facilisis tempus. Pellentesque placerat elementum adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+                    <h3 class="rs title-inside"><?= $data->title; ?></h3>
+                    <p class="rs post-by">by <a href="#" class="fw-b fc-gray be-fc-orange"><?= $data->ownerName; ?></a> in <span class="fw-b fc-gray"><?= $data->location; ?>, <?= $data->province; ?></span></p>
+<!--                    <p>Nam sit amet est sapien, a faucibus purus. Sed commodo facilisis tempus. Pellentesque placerat elementum adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
                     <p>
                         <img class="img-desc" src="images/ex/th-552x411-2.jpg" alt="$DESCRIPTION"/>
                         <span class="img-label">Me and project friends on meeting</span>
                     </p>
                     <p>Nam sit amet est sapien, a faucibus purus. Sed commodo facilisis tempus. Pellentesque placerat elementum adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+                    -->
+                    <div style="text-align: justify;">
+                        <img class="img-desc" style="float: left; margin: 0 9px 3px 0;" src="<?= $data->smallImage; ?>" alt="$DESCRIPTION"/>
+                        <?= $data->shortDescription; ?>
+                    </div>
+                    <!-- AddThis Button BEGIN -->
                     <div class="social-sharing">
-                        <!-- AddThis Button BEGIN -->
                         <div class="addthis_toolbox addthis_default_style">
                             <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
                             <a class="addthis_button_tweet"></a>

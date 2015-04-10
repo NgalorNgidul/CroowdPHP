@@ -17,7 +17,7 @@ $rows = json_decode($data);
                 <div class="project-short sml-thumb">
                     <div class="top-project-info">
                         <div class="content-info-short clearfix">
-                            <a href="?content=project&title=<?= $rows[$i]->title;?>" class="thumb-img">
+                            <a href="?content=project&id=<?= $rows[$i]->id;?>" class="thumb-img">
                                 <?php
                                 if ($rows[$i]->smallImage == null) {
                                     $srcimg = 'images/no-image.png';
@@ -28,7 +28,7 @@ $rows = json_decode($data);
                                 <img src="<?=$srcimg;?>" alt="$TITLE" width="292" height="204">
                             </a>
                             <div class="wrap-short-detail">
-                                <h3 class="rs acticle-title"><a class="be-fc-orange" href="?content=project&title=<?= $rows[$i]->title;?>"><?= $rows[$i]->title; ?></a></h3>
+                                <h3 class="rs acticle-title"><a class="be-fc-orange" href="?content=project&id=<?= $rows[$i]->id;?>"><?= $rows[$i]->title; ?></a></h3>
                                 <p class="rs tiny-desc">oleh <a href="profile.html" class="fw-b fc-gray be-fc-orange"><?= $rows[$i]->ownerName; ?></a></p>
                                 <p class="rs title-description"><?= $rows[$i]->shortDescription; ?></p>
                                 <p class="rs project-location">
