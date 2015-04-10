@@ -27,7 +27,7 @@
         </div>
         <div class="group-fee clearfix">
             <div class="fee-item">
-                <p class="rs lbl">Bankers</p>
+                <p class="rs lbl">Investor</p>
                 <span class="val">270</span>
             </div>
             <div class="sep"></div>
