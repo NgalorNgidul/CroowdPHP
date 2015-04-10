@@ -1,24 +1,24 @@
 <div class="form login-form">
-    <form action="#">
+    <form action="?content=<?=$_GET['content'];?>&kirim=kirim" method="POST">
         <h3 class="rs title-form">Register</h3>
         <h4 class="rs title-box">Masukkan informasi anda</h4>
         <p class="rs">Masukkan nama anda serta alamat email sehingga kami bisa mengirimkan email untuk proses validasi.</p>
         <div class="form-action">
             <label for="txt_name">
-                <input id="txt_name" class="txt fill-width" type="text" placeholder="Masukkan nama lengkap anda"/>
+                <input id="txt_name" name="name" class="txt fill-width" required="required"  type="text" placeholder="Masukkan nama lengkap anda"/>
             </label>
             <label for="txt_email">
-                <input id="txt_email" class="txt fill-width" type="email" placeholder="Masukkan alamat email"/>
+                <input id="txt_email" name="email" class="txt fill-width" required="required"  type="email" placeholder="Masukkan alamat email"/>
             </label>
             <label for="txt_re_email">
-                <input id="txt_re_email" class="txt fill-width" type="email" placeholder="Verifikasi alamat email"/>
+                <input id="txt_re_email" name="reemail" class="txt fill-width" required="required" type="email" placeholder="Verifikasi alamat email"/>
             </label>
 
             <label for="txt_password">
-                <input id="txt_password" class="txt fill-width" type="password" placeholder="Masukkan password"/>
+                <input id="txt_password" name="password" class="txt fill-width" required="required"  type="password" placeholder="Masukkan password"/>
             </label>
             <label for="txt_re_password">
-                <input id="txt_re_password" class="txt fill-width" type="password" placeholder="Verifikasi password"/>
+                <input id="txt_re_password" name="repassword" class="txt fill-width" required="required"  type="password" placeholder="Verifikasi password"/>
             </label>
             <label for="txt_accept">
                 <input type="checkbox" value="1" required="required" name="member" id="member_accept_principles">

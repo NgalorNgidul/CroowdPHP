@@ -96,3 +96,27 @@ function getDATA($url) {
     curl_close($data);
     return $hasil;
 }
+
+function sendPOSTDATA($url,$content){
+    $ipconfig = ipconfig();
+    $ip = $ipconfig.''.$url;
+    $ch = curl_init($ip);
+    curl_setopt($ch, CURLOPT_POST, 1);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $content);
+    curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
+    curl_setopt($ch, CURLOPT_HEADER, 0);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+
+    $json_response = curl_exec($ch);
+    $status = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+
+    if ($status != 200) {
+        die("Error: call to URL $url failed with status $status, response $json_response, curl_error " . curl_error($ch) . ", curl_errno " . curl_errno($ch));
+    }
+
+
+    curl_close($ch);
+
+    $response = json_decode($json_response, true);
+    return $response;
+}

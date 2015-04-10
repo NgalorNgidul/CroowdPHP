@@ -1,5 +1,5 @@
 <h2 class="rs project-title"><?= $data->title; ?></h2>
-<p class="rs post-by">by <a href="#"><?= $data->ownerName; ?></a></p>
+<p class="rs post-by">oleh <a href="#"><?= $data->ownerName; ?></a></p>
 <div class="project-short big-thumb">
     <div class="top-project-info">
         <div class="content-info-short clearfix">
@@ -32,12 +32,12 @@
             </div>
             <div class="sep"></div>
             <div class="fee-item">
-                <p class="rs lbl">Pledged</p>
+                <p class="rs lbl">Terkumpul</p>
                 <span class="val">Rp <?= amountToStr($data->principal); ?></span>
             </div>
             <div class="sep"></div>
             <div class="fee-item">
-                <p class="rs lbl">Days Left</p>
+                <p class="rs lbl">Hari Tersisa</p>
                 <span class="val"><?= $data->remainingDay; ?></span>
             </div>
         </div>

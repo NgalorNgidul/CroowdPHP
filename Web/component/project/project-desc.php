@@ -3,15 +3,15 @@
         <li class="active"><a href="#">Informasi</a></li>
         <li><a href="#" class="be-fc-orange">Updates (0)</a></li>
         <li><a href="#" class="be-fc-orange">Investor (270)</a></li>
-        <li><a href="#" class="be-fc-orange">Comments (2)</a></li>
+        <li><a href="#" class="be-fc-orange">Komentar (2)</a></li>
     </ul>
     <div class="tab-content">
         <div>
-            <h3 class="rs alternate-tab accordion-label">About</h3>
+            <h3 class="rs alternate-tab accordion-label">Informasi</h3>
             <div class="tab-pane active accordion-content">
                 <div class="editor-content">
                     <h3 class="rs title-inside"><?= $data->title; ?></h3>
-                    <p class="rs post-by">by <a href="#" class="fw-b fc-gray be-fc-orange"><?= $data->ownerName; ?></a> in <span class="fw-b fc-gray"><?= $data->location; ?>, <?= $data->province; ?></span></p>
+                    <p class="rs post-by">oleh <a href="#" class="fw-b fc-gray be-fc-orange"><?= $data->ownerName; ?></a> di <span class="fw-b fc-gray"><?= $data->location; ?>, <?= $data->province; ?></span></p>
 <!--                    <p>Nam sit amet est sapien, a faucibus purus. Sed commodo facilisis tempus. Pellentesque placerat elementum adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
                     <p>
@@ -112,7 +112,7 @@
             </div><!--end: .tab-pane(Updates) -->
         </div>
         <div>
-            <h3 class="rs alternate-tab accordion-label">Backers (270)</h3>
+            <h3 class="rs alternate-tab accordion-label">Investor (270)</h3>
             <div class="tab-pane accordion-content">
                 <div class="tab-pane-inside">
                     <div class="project-author pb20">
