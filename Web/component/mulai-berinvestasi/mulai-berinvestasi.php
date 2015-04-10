@@ -3,7 +3,7 @@
 <?php
 
 if($_GET['kirim']=='kirim'){
-    $url = "api/prospek/save";
+    $url = "prospek/save";
     $content = 'name=' . $_POST['name'] . '&email=' . $_POST['email']. '&invest=1';
  //   $response = sendPOSTDATA($url,$content);
 //    echo $response;

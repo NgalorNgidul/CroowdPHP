@@ -14,12 +14,12 @@
                 <input id="txt_re_email" name="reemail" class="txt fill-width" required="required" type="email" placeholder="Verifikasi alamat email"/>
             </label>
 
-            <label for="txt_password">
+<!--            <label for="txt_password">
                 <input id="txt_password" name="password" class="txt fill-width" required="required"  type="password" placeholder="Masukkan password"/>
             </label>
             <label for="txt_re_password">
                 <input id="txt_re_password" name="repassword" class="txt fill-width" required="required"  type="password" placeholder="Verifikasi password"/>
-            </label>
+            </label>-->
             <label for="txt_accept">
                 <input type="checkbox" value="1" required="required" name="member" id="member_accept_principles">
             Saya setuju dengan aturan-aturan keanggotaan Croowd

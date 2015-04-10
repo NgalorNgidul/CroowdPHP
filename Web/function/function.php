@@ -1,6 +1,7 @@
 <?php
 function ipconfig(){
-    $ipconfig = 'http://www.croowd.co.id/';
+  //  $ipconfig = 'http://www.croowd.co.id/';
+    $ipconfig = 'http://www.api.croowd.co.id/';
     return $ipconfig;
 }
 function logout(){

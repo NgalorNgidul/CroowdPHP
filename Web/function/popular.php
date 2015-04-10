@@ -1,5 +1,5 @@
 <?php
-$data = bacaHTML('api/prospect/popular');
+$data = bacaHTML('prospect/popular');
 $rows = json_decode($data);
 ?>
 
