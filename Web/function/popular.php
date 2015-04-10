@@ -19,10 +19,10 @@ $rows = json_decode($data);
                         <div class="content-info-short clearfix">
                             <a href="?content=project&title=<?= $rows[$i]->title;?>" class="thumb-img">
                                 <?php
-                                if ($rows[$i]->picture == null) {
+                                if ($rows[$i]->smallImage == null) {
                                     $srcimg = 'images/no-image.png';
                                 } else {
-                                    $srcimg = $rows[$i]->picture;
+                                    $srcimg = $rows[$i]->smallImage;
                                 }
                                 ?>
                                 <img src="<?=$srcimg;?>" alt="$TITLE" width="292" height="204">
