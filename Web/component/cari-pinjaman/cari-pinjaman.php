@@ -2,10 +2,11 @@
 <!--<script language="javascript"  type="text/javascript" src="component/cari-pinjaman/cari-pinjaman.js"></script>-->
 <?php
 if($_GET['kirim']=='kirim'){
-    $url = "prospek/save";
-    $content = 'name=' . $_POST['name'] . '&email=' . $_POST['email']. '&invest=0'. '&principal=' . $_GET['value']. '&tenor=' . $_GET['term'];
-//    $response = sendPOSTDATA($url,$content);
-//    echo $response;
+    $url = "registration/create";
+//    $content = 'name=' . $_POST['name'] . '&email=' . $_POST['email']. '&invest=0'. '&principal=' . $_GET['value']. '&tenor=' . $_GET['term'];
+     $content = '{"name":"'. $_POST['name'] .'","email":"' . $_POST['email']. '","invest":0,"principal":' . $_POST['principal']. ',"tenor":' . $_POST['tenor']. '}';
+    $response = sendPOSTDATA($url,$content);
+    echo $response;
     
     echo 'Terima Kasih anda sudah melakukan pendaftaran';
    // header( "refresh:5;location:?content=".$_GET['content']."" );
