@@ -41,9 +41,9 @@
         <div class="grid_12">
             <a class="logo-footer" href="index.html"><img src="images/logo-2.png" alt="$SITE_NAME"/></a>
             <p class="rs term-privacy">
-                <a class="fw-b be-fc-orange" href="single.html">Terms & Conditions</a>
+                <a class="fw-b be-fc-orange" href="?content=termcon">Terms & Conditions</a>
                 <span class="sep">/</span>
-                <a class="fw-b be-fc-orange" href="single.html">Privacy Policy</a>
+                <a class="fw-b be-fc-orange" href="?content=privacy-policy">Privacy Policy</a>
                 <span class="sep">/</span>
                 <a class="fw-b be-fc-orange" href="#">FAQ</a>
             </p>
