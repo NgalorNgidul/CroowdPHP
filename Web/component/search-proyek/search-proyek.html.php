@@ -1,5 +1,5 @@
 <div class="layout-2cols">
-    <div class="content grid_9">
+    <div class="content grid_12">
         <div class="search-result-page">
             <div class="top-lbl-val">
                 <h3 class="common-title">Discover / <span class="fc-orange">Search</span></h3>
@@ -20,6 +20,6 @@
             </p>
         </div><!--end: .search-result-page -->
     </div><!--end: .content -->
-    <?php include 'component/search-proyek/sidebar.php'; ?>
+    <?php // include 'component/search-proyek/sidebar.php'; ?>
     <div class="clear"></div>
 </div>
