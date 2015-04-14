@@ -88,9 +88,9 @@ function listItem(tambah) {
                 include = include + '<p class="rs title-description">' + item.shortDescription + '</p>';
                 include = include + '</div>';
                 include = include + '<p class="rs clearfix comment-view">';
-                include = include + '<a class="fc-gray be-fc-orange" href="#">75 comments</a>';
+                include = include + '<a class="fc-gray be-fc-orange" href="#">75 Komentar</a>';
                 include = include + '<span class="sep">|</span>';
-                include = include + '<a class="fc-gray be-fc-orange" href="#">378 views</a>';
+                include = include + '<a class="fc-gray be-fc-orange" href="#">378 Dilihat</a>';
                 include = include + '</p>';
                 include = include + '</div>';
                 include = include + '</div>';
@@ -106,7 +106,7 @@ function listItem(tambah) {
                 include = include + '<div class="sep"></div>';
                 include = include + '<div class="fee-item">';
                 include = include + '<p class="rs lbl">Terkumpul</p>';
-                include = include + '<span class="val">Rp. ' + item.pledged + '</span>';
+                include = include + '<span class="val">Rp. ' + moneyFormats(item.pledged) + '</span>';
                 include = include + '</div>';
                 include = include + '<div class="sep"></div>';
                 include = include + '<div class="fee-item">';
@@ -114,7 +114,7 @@ function listItem(tambah) {
                 include = include + ' <span class="val">' + item.remainingDay + '</span>';
                 include = include + '</div>';
                 include = include + '</div>';
-                include = include + '<a href="?content=project&id=' + item.id + '" class="btn btn-red btn-buck-project">Buck this project</a>';
+                include = include + '<a href="?content=project&id=' + item.id + '" class="btn btn-red btn-buck-project">Buck Proyek Ini</a>';
                 include = include + '<div class="clear"></div>';
                 include = include + '</div>';
                 include = include + '</div>';
