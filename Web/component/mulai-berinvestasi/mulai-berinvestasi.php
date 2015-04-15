@@ -11,13 +11,9 @@ if ($_GET['kirim'] == 'kirim') {
     $response = sendPOSTDATA($url, $content);
 
     //   echo $response;
-    if ($response == '') {
-        echo 'Terima Kasih anda sudah melakukan pendaftaran';
-        echo "<script>setTimeout(\"location.href = '?content=" . $_GET['content'] . "';\",5000);</script>";
-    } else {
-        echo 'Gagal Melakukan Pendaftaran';
-        echo "<script>setTimeout(\"location.href = '?content=" . $_GET['content'] . "';\",5000);</script>";
-    }
+    include 'component/register/sukses-register.php';
+
+    
 } else {
 
     include 'component/' . $_GET['content'] . '/' . $_GET['content'] . '.html.php';
