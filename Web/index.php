@@ -85,9 +85,9 @@ if (isset($_GET['action']) == 'logout') {
                             <div class="account-panel">
                                 <?php if (isset($_COOKIE['simbiosis']) == null) { ?> 
                                     <!-- <a href="#" class="btn btn-red sys_show_popup_login">Register</a>-->
-                                    <a href="index.php?action=logout" class="btn btn-black sys_show_popup_login">Masuk</a>
+                                    <a href="http://app.croowd.co.id" class="btn btn-black">Masuk</a>
                                 <?php } else { ?>
-                                    <a href="#register" onclick="onMenu('register')" class="btn btn-red">Keluar</a>
+                                    <a href="http://app.croowd.co.id" onclick="onMenu('register')" class="btn btn-red">Keluar</a>
                                 <?php } ?>
                             </div>
                             <div class="form-search">
