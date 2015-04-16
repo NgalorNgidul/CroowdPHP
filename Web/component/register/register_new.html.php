@@ -33,7 +33,7 @@
             </label>
 
             <br/>
-            <p class="rs pb10">Dengan ini anda setuju dengan <a href="#" class="fc-orange">aturan keanggotaan kami</a> dan <a href="#" class="fc-orange">aturan penyimpanan data kami</a>.</p>
+            <p class="rs pb10">Dengan ini anda setuju dengan <a href="?content=termcon" class="fc-orange">aturan keanggotaan kami</a> dan <a href="?content=termcon" class="fc-orange">aturan penyimpanan data kami</a>.</p>
             <p class="rs ta-c">
                 <button class="btn btn-red btn-submit" type="submit">Kirim</button>
             </p>
