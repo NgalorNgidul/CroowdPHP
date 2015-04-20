@@ -32,7 +32,7 @@
             </div>
             <div class="sep"></div>
             <div class="fee-item">
-                <p class="rs lbl">Terkumpul</p>
+                <p class="rs lbl">Dibutuhkan</p>
                 <span class="val">Rp <?= amountToStr($data->principal); ?></span>
             </div>
             <div class="sep"></div>
