@@ -1,5 +1,5 @@
 <?php
-if ($_COOKIE['simbiosis'] == null) {
+//if ($_COOKIE['simbiosis'] == null) {
     
 
 ?>
@@ -40,11 +40,12 @@ if ($_COOKIE['simbiosis'] == null) {
 
     <div class="clear"></div>
 </div>
-<?php } else { ?>
 <?php
-                    include 'component/mulai-berinvestasi/mulai-berinvestasi2.html.php'
-                    ;
+// } else { 
+?>
+<?php
+//                    include 'component/mulai-berinvestasi/mulai-berinvestasi2.html.php';
                     ?>
-<?php } ?>
+<?php //} ?>
 
 <script language="javascript"  type="text/javascript" src="component/mulai-berinvestasi/mulai-berinvestasi.js"></script>
