@@ -16,7 +16,7 @@
             <input type="hidden" value="0" id="previtem" />
             <input type="hidden" value="3" id="nextitem" />
             <p class="rs ta-c">
-                <a href="javascript:void(0);" onclick="listItem(3);" class="btn btn-black btn-load-more" id="showmoreresults">Show more projects</a>
+                <a href="javascript:void(0);" onclick="listItem(3);" class="btn btn-black btn-load-more" id="showmoreresults">Tampilkan hasil yang lain</a>
             </p>
         </div><!--end: .search-result-page -->
     </div><!--end: .content -->

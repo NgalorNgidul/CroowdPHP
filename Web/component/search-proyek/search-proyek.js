@@ -42,7 +42,7 @@ function listItem(tambah) {
         success: function (data) {
         //    alert("tes");
             //    alert(data);
-            $('#showmoreresults').html('Show More Result');
+            $('#showmoreresults').html('Tunjukkan hasil yang lain');
             var totalitem = data.length;
        //     alert(totalitem);
             $('#recordall').html(totalitem);
@@ -105,8 +105,8 @@ function listItem(tambah) {
                 include = include + '</div>';
                 include = include + '<div class="sep"></div>';
                 include = include + '<div class="fee-item">';
-                include = include + '<p class="rs lbl">Terkumpul</p>';
-                include = include + '<span class="val">Rp. ' + moneyFormats(item.pledged) + '</span>';
+                include = include + '<p class="rs lbl">Target</p>';
+                include = include + '<span class="val">Rp. ' + moneyFormats(item.principal) + '</span>';
                 include = include + '</div>';
                 include = include + '<div class="sep"></div>';
                 include = include + '<div class="fee-item">';
