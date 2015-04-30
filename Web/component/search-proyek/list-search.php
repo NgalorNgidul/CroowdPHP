@@ -31,8 +31,8 @@
                     </div>
                     <div class="sep"></div>
                     <div class="fee-item">
-                        <p class="rs lbl">Terkumpul</p>
-                        <span class="val">Rp. <?= $rows[$i]->pledged; ?></span>
+                        <p class="rs lbl">Target</p>
+                        <span class="val">Rp. <?= $rows[$i]->principal; ?></span>
                     </div>
                     <div class="sep"></div>
                     <div class="fee-item">
