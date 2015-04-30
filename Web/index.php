@@ -15,6 +15,7 @@ if (isset($_GET['action']) == 'logout') {
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300' rel='stylesheet' type='text/css'>
+	<link rel="shortcut icon" href="favicon.png" type="image/png">
         <link rel="stylesheet" href="css/normalize.css"/>
         <link rel="stylesheet" href="css/table-alone.css"/>
         <link rel="stylesheet" href="css/jquery.sidr.light.css"/>

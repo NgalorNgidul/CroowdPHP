@@ -51,7 +51,7 @@ $rows = json_decode($data);
                             </div>
                             <div class="sep"></div>
                             <div class="fee-item">
-                                <p class="rs lbl">Nilai</p>
+                                <p class="rs lbl">Target</p>
                                 <span class="val">Rp <?= amountToStr($rows[$i]->principal); ?></span>
                             </div>
                             <div class="sep"></div>
