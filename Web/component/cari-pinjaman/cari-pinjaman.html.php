@@ -6,7 +6,7 @@
                 <h2 class="common-title">Cari Pinjaman</h2>
                 <div class="box-white">
                     <?php
-                    if ($_COOKIE['simbiosis'] == null && $_GET['term'] != null && $_GET['value'] != null) {
+                    if (isset($_COOKIE['simbiosis']) == null && isset($_GET['term']) != null && isset($_GET['value']) != null) {
                       //  echo '<span style="color:red;font-weight:bold;">Maaf Anda harus melakukan sign in terlebih dahulu</span>';
                     
                         

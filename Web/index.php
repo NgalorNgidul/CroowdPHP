@@ -169,7 +169,7 @@ if (isset($_GET['action']) == 'logout') {
         <script type="text/javascript" src="js/jquery.sidr.min.js"></script>
         <script type="text/javascript" src="js/jquery.tweet.min.js"></script>
         <script type="text/javascript" src="js/pie.js"></script>
-        <?php if ($_GET['content'] == 'start-project') { ?>
+        <?php if (isset($_GET['content']) == 'start-project') { ?>
             <script type="text/javascript" src="component/start-project/start-project.js"></script>
 
             <script type="text/javascript" src="js/js/bootstrap.min.js"></script>

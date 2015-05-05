@@ -1,5 +1,5 @@
 <?php
-if ($_COOKIE['simbiosis'] == null) {
+if (isset($_COOKIE['simbiosis']) == null) {
     
 
 ?>
