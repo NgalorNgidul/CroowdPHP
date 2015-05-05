@@ -1,16 +1,14 @@
 <div class="container_12 main-footer">
     <div class="grid_4">
         <h3 class="rs title">Informasi</h3>
-        <div class="footer-menu">
+        <div class="rs">
             <ul class="rs">
                 <li><a class="be-fc-orange" href="?content=about">Tentang kami</a></li>
-                <li><a class="be-fc-orange" href="?content=about">Tentang croowdfunding</a></li>
-            </ul>
-            <ul class="rs">
+                <li><a class="be-fc-orange" href="?content=aboutcfn">Tentang croowdfunding</a></li>
                 <li><a class="be-fc-orange" href="?content=cara-kerja">Cara kerja</a></li>
                 <li><a class="be-fc-orange" href="?content=keunggulan">Keunggulan</a></li>
-                <li><a class="be-fc-orange" href="?content=about">Mencari dana</a></li>
-                <li><a class="be-fc-orange" href="?content=about">Menjadi investor</a></li>
+                <li><a class="be-fc-orange" href="?content=about">Persyaratan Peminjam</a></li>
+                <li><a class="be-fc-orange" href="?content=about">Persyaratan investor</a></li>
             </ul>
             <div class="clear"></div>
         </div>

@@ -201,12 +201,12 @@
                     
                     <p align="justify" style="text-indent: 0.5in; margin-bottom: 0in; line-height: 150%">
                         Kami tidak berusaha mengumpulkan informasi apapun dari siapapun di
-                        bawah usia 13 atau mengizinkan mereka untuk mendaftar sebagai
-                        pengguna. Situs dan isinya tidak diarahkan pada anak di bawah usia 13
+                        bawah usia 17 atau mengizinkan mereka untuk mendaftar sebagai
+                        pengguna. Situs dan isinya tidak diarahkan pada anak di bawah usia 17
                         tahun Jika kita belajar bahwa kita telah mengumpulkan informasi
-                        pribadi dari anak di bawah usia 13 tahun, kami akan menghapus
+                        pribadi dari anak di bawah usia 17 tahun, kami akan menghapus
                         informasi yang secepat mungkin. Jika Anda yakin bahwa kita mungkin
-                        memiliki informasi apapun dari anak di bawah 13, silahkan hubungi
+                        memiliki informasi apapun dari anak di bawah 17, silahkan hubungi
                         kami di info@Croowd.co.id.</p>
                     <p align="justify" style="margin-bottom: 0in; line-height: 150%"><br>
                     </p>
