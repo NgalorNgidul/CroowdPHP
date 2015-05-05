@@ -176,6 +176,7 @@ Licensed under GPL and MIT.
 .clearfix:after{
     clear: both;
 }
+
 .clear{
     background: none;
     border: 0;
@@ -191,6 +192,7 @@ Licensed under GPL and MIT.
     width: 0;
     height: 0;
 }
+
 .clear-2col{
     display: none;
 }
@@ -1393,7 +1395,7 @@ a.fc-gray-dark,.fc-gray-dark{color: #999}
 --------------------------------------------------------------------------------*/
 #footer{
     border-top: 1px solid #d4d4d4;
-    background: #FFF;
+    background: #DFDFDF;
     padding: 35px 0 0 0;
 }
 #footer .main-footer .grid_3{

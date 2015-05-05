@@ -15,11 +15,14 @@ if (isset($_GET['action']) == 'logout') {
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300' rel='stylesheet' type='text/css'>
+	<link rel="shortcut icon" href="favicon.png" type="image/png">
         <link rel="stylesheet" href="css/normalize.css"/>
         <link rel="stylesheet" href="css/table-alone.css"/>
         <link rel="stylesheet" href="css/jquery.sidr.light.css"/>
         <link rel="stylesheet" href="css/animate.min.css"/>
         <link rel="stylesheet" href="css/md-slider.css"/>
+        
+    <link rel="stylesheet" href="css/responsiveslides.css"/>
         <link rel="stylesheet" href="css/style.css"/>
         <?php if (isset($_GET['content']) && $_GET['content'] == 'start-project') { ?>
             <link href="css/css/wizard.css" rel="stylesheet" />
@@ -83,9 +86,9 @@ if (isset($_GET['action']) == 'logout') {
                             <div class="account-panel">
                                 <?php if (isset($_COOKIE['simbiosis']) == null) { ?> 
                                     <!-- <a href="#" class="btn btn-red sys_show_popup_login">Register</a>-->
-                                    <a href="index.php?action=logout" class="btn btn-black sys_show_popup_login">Masuk</a>
+                                    <a href="http://app.croowd.co.id" class="btn btn-black">Masuk</a>
                                 <?php } else { ?>
-                                    <a href="#register" onclick="onMenu('register')" class="btn btn-red">Keluar</a>
+                                    <a href="http://app.croowd.co.id" onclick="onMenu('register')" class="btn btn-red">Keluar</a>
                                 <?php } ?>
                             </div>
                             <div class="form-search">
@@ -168,6 +171,8 @@ if (isset($_GET['action']) == 'logout') {
         <script type="text/javascript" src="js/md_slider.js"></script>
         <script type="text/javascript" src="js/jquery.sidr.min.js"></script>
         <script type="text/javascript" src="js/jquery.tweet.min.js"></script>
+        
+    <script type="text/javascript" src="js/responsiveslides.min.js"></script>
         <script type="text/javascript" src="js/pie.js"></script>
         <?php if (isset($_GET['content']) == 'start-project') { ?>
             <script type="text/javascript" src="component/start-project/start-project.js"></script>

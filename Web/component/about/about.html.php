@@ -4,9 +4,9 @@
             <div class="wrapper-box box-post-comment">
                 <h2 class="common-title">Tentang Kami</h2>
                 <div class="box-white">
-                    <p class="rs pb30">Croowd adalah situs Crowdfunding Syariah pertama di Indonesia yang berbasis pada layanan pembiayaan peer-to-peer. Kami menyediakan jasa pembiayaan dengan marjin yang rendah dan memberikan bagi hasil yang baik bagi investor.</p>
-                    <p class="rs pb30">Didirikan sejak 2015 Croowd telah berhasil membantu beberapa bisnis menjadi semakin berkembang, bersamaan dengan itu telah memberikan manfaat bagi para investor. Untuk itu kami telah menatap bisnis yang sifatnya lebih global. Saat ini pelaku bisnis utamanya UMKM bisa mendapatkan akses ke banyak pemilik modal baik itu perorangan, pemerintahan, universitas, maupun institusi keuangan.</p>
-                    <p class="rs pb30">Tim Croowd beranggotakan orang-orang yang sangat berpengalaman baik di bidang jasa keuangan, teknologi, maupun bidang-bidang lain. Selain itu tim juga didukung oleh para investor yang juga ikut serta mendukung finansial induk perusahaan kami.</p>
+                    <p class="rs pb30">CROOWD adalah situs Crowdfunding Syariah pertama di Indonesia. Croowd berbasis pada layanan pembiayaan peer to peer (P2P Financing).</p>
+                    <p class="rs pb30">Croowd memfasilitasi pembiayaan dengan biaya dana (cost of fund) yang relatif murah untuk yang membutuhkan, namun memberikan tingkat pengembalian (return) yang kompetitif bagi pemilik dana. .</p>
+                    <p class="rs pb30">Croowd dipersiapkan sejak tahun 2014 dan baru diluncurkan pada tahun 2015. Croowd merupakan lini usaha dari PT Digi Laras Prosperindo, yang didirikan oleh praktisi keuangan syariah di Indonesia. </p>
                 </div>
             </div>
         </div><!--end: .box-list-comment -->

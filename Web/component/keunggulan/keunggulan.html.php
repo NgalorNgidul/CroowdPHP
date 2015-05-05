@@ -1,25 +1,15 @@
-<?php
-
-//if ($_COOKIE['simbiosis'] == null) {
-    
-
-?>
 <div class="layout-2cols">
     <div class="content grid_8">
         <div class="single-page">
             <div class="wrapper-box box-post-comment">
-                <h2 class="common-title">Mulai Berinvestasi</h2>
+                <h2 class="common-title">Keunggulan</h2>
                 <div class="box-white">
-		    <h4 class="rs title-box">Untuk investor</h4>
-                    <p class="rs">Untuk menjadi investor pada Croowd anda cukup mengisi nama lengkap dan alamat email. Selanjutnya kami akan mengirimkan email untuk memvalidasi data anda.</p>
-                    <?php
-                    include 'component/register/register_new.html.php'
-                    ;
-                    ?>
+			<img src="images/why_croowd.png"/><br/><br/>
                 </div>
-            </div><!--end: .box-list-comment -->
-        </div>
-    </div><!--end: .content -->
+            </div>
+        </div><!--end: .box-list-comment -->
+    </div>
+</div><!--end: .content -->
     <div class="sidebar grid_4">
         <div class="box-gray">
             <h3 class="title-box">Kontak</h3>
@@ -36,17 +26,5 @@
             </p>
         </div>
     </div><!--end: .sidebar -->
-    <div class="clear"></div>
+<div class="clear"></div>
 </div>
-
-    <div class="clear"></div>
-</div>
-<?php
-// } else { 
-?>
-<?php
-//                    include 'component/mulai-berinvestasi/mulai-berinvestasi2.html.php';
-                    ?>
-<?php //} ?>
-
-<script language="javascript"  type="text/javascript" src="component/mulai-berinvestasi/mulai-berinvestasi.js"></script>

@@ -6,7 +6,9 @@
             <name>crowd-funding</name>
         </data>
         <spellchecker-wordlist xmlns="http://www.netbeans.org/ns/spellchecker-wordlist/1">
+            <word>Informasi</word>
             <word>nb</word>
+            <word>Tersisa</word>
         </spellchecker-wordlist>
     </configuration>
 </project>
