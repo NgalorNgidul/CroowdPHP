@@ -84,7 +84,7 @@ function listItem(tambah) {
                 include = include + '</a>';
                 include = include + '<div class="wrap-short-detail">';
                 include = include + '<h3 class="rs acticle-title"><a href="?content=project&id=' + item.id + '" class="be-fc-orange">' + item.title + '</a></h3>';
-                include = include + '<p class="rs tiny-desc">oleh <a class="fw-b fc-gray be-fc-orange" href="#">' + item.ownerName + '</a> in <span class="fw-b fc-gray">' + item.location + ', ' + item.province + '</span></p>';
+                include = include + '<p class="rs tiny-desc">oleh <a class="fw-b fc-gray be-fc-orange" href="?content=profile&id=' + item.ownerName + '">' + item.ownerName + '</a> in <span class="fw-b fc-gray">' + item.location + ', ' + item.province + '</span></p>';
                 include = include + '<p class="rs title-description">' + item.shortDescription + '</p>';
                 include = include + '</div>';
                 include = include + '<p class="rs clearfix comment-view">';
