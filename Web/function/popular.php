@@ -29,7 +29,7 @@ $rows = json_decode($data);
                             </a>
                             <div class="wrap-short-detail">
                                 <h3 class="rs acticle-title"><a class="be-fc-orange" href="?content=project&id=<?= $rows[$i]->id;?>"><?= $rows[$i]->title; ?></a></h3>
-                                <p class="rs tiny-desc">oleh <a href="?content=profile&id=<?= $rows[$i]->ownerName;?>" class="fw-b fc-gray be-fc-orange"><?= $rows[$i]->ownerName; ?></a></p>
+                                <p class="rs tiny-desc">oleh <a href="?content=profile&id=<?= $rows[$i]->ownerId;?>" class="fw-b fc-gray be-fc-orange"><?= $rows[$i]->ownerName; ?></a></p>
                                 <!--<p class="rs title-description"><?= $rows[$i]->shortDescription; ?></p>-->
                                 <p class="rs project-location">
                                     <i class="icon iLocation"></i>
