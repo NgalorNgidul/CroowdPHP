@@ -5,12 +5,13 @@ $rows = json_decode($data);
 
 <div class="container_12">
     <div class="grid_12 wrap-title">
-        <h2 class="common-title">Proyek Populer</h2>
-        <a class="be-fc-orange" href="?content=all-project">Lihat semua</a>
+        <br/>
+        <br/>
+        <h3 class="common-title">Semua <span class="fc-orange">Project</span></h3>
     </div>
     <div class="clear"></div>
     <div class="lst-popular-project clearfix">
-        <?php
+        <?php   
         for ($i = 0; $i < count($rows); $i++) {
             ?>
             <div class="grid_3">
