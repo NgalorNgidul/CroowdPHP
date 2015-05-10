@@ -1,8 +1,10 @@
 <?php
 
 $id = $_GET['id'];
-$data = getJAVA('prospect/'.$id);
-$rows = json_decode($data);
+$data = bacaRest('member/get/'.$id);
+//var_dump($data);
+$rows = json_decode($data, TRUE);
+//$rows = array();
 
 include 'component/'.$_GET['content'].'/'.$_GET['content'].'.html.php';
 
