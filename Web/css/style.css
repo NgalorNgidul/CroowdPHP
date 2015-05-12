@@ -225,7 +225,7 @@ a:hover{text-decoration: none;}
 a:hover, a:active{outline: 0;}
 a.fc-default,.fc-default{color: #5c666b}
 a.fc-white,.fc-white{color: #FFF}
-a.fc-orange,.fc-orange,.be-fc-orange:hover{color: #ea503d}
+a.fc-orange,.fc-orange,.be-fc-orange:hover{color: #FF8D58}
 a.fc-black,.fc-black{color: #3e4b51}
 a.fc-gray,.fc-gray{color: #b7bcbe}
 a.fc-gray-dark,.fc-gray-dark{color: #999}
@@ -449,7 +449,7 @@ a.fc-gray-dark,.fc-gray-dark{color: #999}
 .common-title{
     margin: 0;
     padding: 0 0 12px 0;
-    color: #3e4b51;
+    color: #047393;
     line-height: 1.2em;
     font-size: 2.154em;
     font-weight: normal;

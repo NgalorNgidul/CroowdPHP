@@ -26,5 +26,5 @@
 <div class="home-popular-project">
     <?php include "function/popular.php"; ?>
 </div><!--end: .home-popular-project -->
-<?php // include "function/home-discover.php"; ?>
+<?php include "function/latest-project.php"; ?>
 <!--end: .additional-info-line -->
