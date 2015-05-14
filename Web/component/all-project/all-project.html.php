@@ -4,9 +4,7 @@ $rows = json_decode($data);
 ?>
 
 <div class="container_12">
-    <div class="grid_12 wrap-title">
-        <br/>
-        <br/>
+    <div class="grid_12 wrap-title" style="margin-top: 20px;">
         <h3 class="common-title">Semua <span class="fc-orange">Project</span></h3>
     </div>
     <div class="clear"></div>
@@ -68,6 +66,5 @@ $rows = json_decode($data);
         }
         ?>
         <div class="clear clear-2col"></div>
-
     </div>
 </div>
