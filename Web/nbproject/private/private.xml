@@ -5,11 +5,12 @@
         <group>
             <file>file:/Users/Isht/www/croowd/index1.php</file>
             <file>file:/Users/Isht/www/croowd/component/about/about.html.php</file>
-            <file>file:/Users/Isht/www/croowd/component/search-proyek/list-search.php</file>
             <file>file:/Users/Isht/www/croowd/function/popular.php</file>
-            <file>file:/Users/Isht/www/croowd/component/search-proyek/search-proyek.js</file>
+            <file>file:/Users/Isht/www/croowd/function/list-category.php</file>
+            <file>file:/Users/Isht/www/croowd/css/responsive.css</file>
             <file>file:/Users/Isht/www/croowd/function/latest-news.php</file>
             <file>file:/Users/Isht/www/croowd/function/latest-project.php</file>
+            <file>file:/Users/Isht/www/croowd/component/all-project/all-project.html.php</file>
         </group>
     </open-files>
 </project-private>

@@ -4,7 +4,7 @@
             <div class="content-info-short clearfix">
                 <div class="grid_4">
                     <a class="thumb-img" href="#" style="height:204px !important;width: 292px !important">
-                        <img alt="$TITLE" src="http://localhost/croowd/images/projects/small/2.jpg">
+                        <img alt="$TITLE" src="images/projects/small/2.jpg">
                     </a>
                 </div>
                 <div class="clear"></div>
