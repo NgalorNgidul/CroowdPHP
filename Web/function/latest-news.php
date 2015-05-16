@@ -3,7 +3,7 @@
         <div class="top-project-info" style="padding: 10px 10px 15px 10px !important">
             <div class="content-info-short clearfix">
                 <div class="grid_3 clearfix" style="margin-right: 100px !important">
-                    <a class="thumb-img" href="#" style="!important;width: 292px !important; padding-bottom: 3px;">
+                    <a class="thumb-img" href="#" style="height: 204px !important;width: 292px !important; padding-bottom: 3px;">
                         <img alt="$TITLE" width="292px" src="images/crowdfunding.jpg">
                     </a>
                 </div>
