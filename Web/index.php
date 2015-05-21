@@ -78,7 +78,7 @@ if (isset($_GET['action']) == 'logout') {
                                 </div>
                                 <span class="sep"></span>
                                 <div class="nav-item">
-                                    <a href="?content=cara-kerja"  id="howitworks"  class="nav-title">Cara kerja</a>
+                                    <a href="?content=cara-kerja" id="howitworks"  class="nav-title">Cara kerja</a>
                                 </div>
                             </div>
                         </div>

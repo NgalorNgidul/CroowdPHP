@@ -3,22 +3,23 @@ $data = bacaHTML('prospect/popular');
 $rows = json_decode($data);
 ?>
 
-<div class="container_12">
-    <div class="grid_12 wrap-title">
-        <br/>
-        <br/>
-        <h3 class="common-title">Semua <span class="fc-orange">Project</span></h3>
-    </div>
+<div class="container_12 lst-popular-project clearfix" style="margin-top: 20px;">
+    <!--    <div class="grid_12 wrap-title">
+            <h3 class="common-title">Semua <span class="fc-orange">Project</span></h3>
+        </div>-->
     <div class="clear"></div>
-    <div class="lst-popular-project clearfix">
-        <?php   
-        for ($i = 0; $i < count($rows); $i++) {
+    <div class="grid_9">
+        <div class="grid_12 wrap-title">
+            <h3 class="common-title" style="margin-bottom: 10px;">Semua <span class="fc-orange">Project</span></h3>
+        </div>
+        <?php
+        for ($i = 0; $i < 3; $i++) {
             ?>
-            <div class="grid_3">
+            <div class="grid_4">
                 <div class="project-short sml-thumb">
                     <div class="top-project-info">
                         <div class="content-info-short clearfix">
-                            <a href="?content=project&id=<?= $rows[$i]->id;?>" class="thumb-img">
+                            <a href="?content=project&id=<?= $rows[$i]->id; ?>" class="thumb-img">
                                 <?php
                                 if ($rows[$i]->smallImage == null) {
                                     $srcimg = 'images/no-image.png';
@@ -26,11 +27,11 @@ $rows = json_decode($data);
                                     $srcimg = $rows[$i]->smallImage;
                                 }
                                 ?>
-                                <img src="<?=$srcimg;?>" alt="$TITLE" width="292" height="204">
+                                <img src="<?= $srcimg; ?>" alt="$TITLE" width="292" height="204" style="height:135px !important;width:204px !important">
                             </a>
                             <div class="wrap-short-detail">
-                                <h3 class="rs acticle-title"><a class="be-fc-orange" href="?content=project&id=<?= $rows[$i]->id;?>"><?= $rows[$i]->title; ?></a></h3>
-                                <p class="rs tiny-desc">oleh <a href="?content=profile&id=<?= $rows[$i]->ownerId;?>" class="fw-b fc-gray be-fc-orange"><?= $rows[$i]->ownerName; ?></a></p>
+                                <h3 class="rs acticle-title"><a class="be-fc-orange" href="?content=project&id=<?= $rows[$i]->id; ?>"><?= $rows[$i]->title; ?></a></h3>
+                                <p class="rs tiny-desc">oleh <a href="?content=profile&id=<?= $rows[$i]->ownerId; ?>" class="fw-b fc-gray be-fc-orange"><?= $rows[$i]->ownerName; ?></a></p>
                                 <!--<p class="rs title-description"><?= $rows[$i]->shortDescription; ?></p>-->
                                 <p class="rs project-location">
                                     <i class="icon iLocation"></i>
@@ -67,7 +68,15 @@ $rows = json_decode($data);
             <?php
         }
         ?>
-        <div class="clear clear-2col"></div>
-
     </div>
+    <div class="grid_3 clearfix">
+        <nav class="lst-category">
+            <h2 class="title-welcome rs">Category</h2><br/>
+            <?php include"function/list-category.php"; ?> 
+            <p class="rs view-all-category">
+                <a href="#category" id="category" class="be-fc-orange">+ View all categories</a>
+            </p>
+        </nav>
+    </div>
+    <div class="clear clear-2col"></div>
 </div>

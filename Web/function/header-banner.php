@@ -16,7 +16,7 @@
 					data-stop="7500" data-easein="random" data-easeout="keep">
 					<p>Croowd membantu anda sebagai pelaku bisnis untuk mendapatkan dana segar untuk bisnis yang sedang anda jalankan. Bergabunglah bersama kami dan para pelaku bisnis yang lain menuju keberhasilan.</p>
 				</div>
-				<?php include 'button-money.php'; ?>
+				<?php // include 'button-money.php'; ?>
                             <!--
 				<div class="md-object" data-x="495" data-y="0" data-width="612"
 					data-height="365" data-start="1800" data-stop="7500"
@@ -66,7 +66,7 @@
 					<img src="images/ex/slide1_4.png" alt="Responsive" width="59"
 						height="114" />
 				</div>
-                            <?php include 'button-money.php'; ?>
+                            <?php // include 'button-money.php'; ?>
 			</div>
 		</div>
 		<div class="md-slide-item slide-2" data-timeout="4000">
@@ -82,7 +82,7 @@
 					<h2 class="rs slide-title">Jadilah investor</h2>
 					<p class="rs slide-description2">Investasikan dana anda untuk bisnis-bisnis yang menarik dan memiliki potensi untuk berkembang. Jadilah bagian dari keberhasilan UMKM Indonesia.</p>
 				</div>
-                            <?php include 'button-money.php'; ?>
+                            <?php // include 'button-money.php'; ?>
 			</div>
 		</div>
 	</div>

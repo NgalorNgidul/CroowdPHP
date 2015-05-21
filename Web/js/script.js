@@ -16,7 +16,7 @@ $(function(){
 			fullwidth: true,
 			transitions: "fade",
 			width: 980,
-			height: 500,
+			height: 400,
 			responsive: true,
 			slideShowDelay: 6000,
 			slideShow: true,

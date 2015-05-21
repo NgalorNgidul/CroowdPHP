@@ -6,7 +6,7 @@ $rows = json_decode($data);
 <div class="container_12">
     <div class="grid_12 wrap-title">
         <h2 class="common-title">Proyek <span class="fc-orange">Populer</span></h2>
-        <a class="be-fc-orange" href="?content=all-project">Lihat semua</a>
+        <!--<a class="be-fc-orange" href="?content=all-project">Lihat semua</a>-->
     </div>
     <div class="clear"></div>
     <div class="lst-popular-project clearfix">
@@ -25,7 +25,7 @@ $rows = json_decode($data);
                                     $srcimg = $rows[$i]->smallImage;
                                 }
                                 ?>
-                                <img src="<?=$srcimg;?>" alt="$TITLE" width="292" height="204">
+                                <img src="<?=$srcimg;?>" alt="$TITLE" width="292" height="204" style="height:135px !important;width:204px !important">
                             </a>
                             <div class="wrap-short-detail">
                                 <h3 class="rs acticle-title"><a class="be-fc-orange" href="?content=project&id=<?= $rows[$i]->id;?>"><?= $rows[$i]->title; ?></a></h3>
