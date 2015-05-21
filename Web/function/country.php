@@ -8,208 +8,39 @@
     <option value="147" >Philippines</option>
     <option value="207" >Vietnam</option>
     <optgroup label="----------"></optgroup>
-
-
-
-
     <option value="1">Afghanistan</option>
-
-
-
-
-
     <option value="2">Albania</option>
-
-
-
-
-
     <option value="3">Algeria</option>
-
-
-
-
-
     <option value="4">Andorra</option>
-
-
-
-
-
     <option value="5">Angola</option>
-
-
-
-
-
     <option value="6">Anguilla</option>
-
-
-
-
-
     <option value="7">Antigua and Barbuda</option>
-
-
-
-
-
     <option value="8">Argentina</option>
-
-
-
-
-
     <option value="9">Armenia</option>
-
-
-
-
-
     <option value="10">Aruba</option>
-
-
-
-
-
     <option value="11">Australia</option>
-
-
-
-
-
     <option value="12">Austria</option>
-
-
-
-
-
     <option value="13">Azerbaijan</option>
-
-
-
-
-
     <option value="14">Bahamas</option>
-
-
-
-
-
     <option value="15">Bahrain</option>
-
-
-
-
-
     <option value="16">Bangladesh</option>
-
-
-
-
-
     <option value="17">Barbados</option>
-
-
-
-
-
     <option value="18">Belarus</option>
-
-
-
-
-
     <option value="19">Belgium</option>
-
-
-
-
-
     <option value="20">Belize</option>
-
-
-
-
-
     <option value="21">Benin</option>
-
-
-
-
-
     <option value="22">Bermuda</option>
-
-
-
-
-
     <option value="23">Bhutan</option>
-
-
-
-
-
     <option value="24">Bolivia</option>
-
-
-
-
-
     <option value="25">Bosnia and Herzegovina</option>
-
-
-
-
-
     <option value="26">Botswana</option>
-
-
-
-
-
     <option value="27">Brazil</option>
-
-
-
-
-
     <option value="28">British Virgin islands</option>
-
-
-
-
-
     <option value="29">Brunei Darussalam</option>
-
-
-
-
-
     <option value="30">Bulgaria</option>
-
-
-
-
-
     <option value="31">Burkina Faso</option>
-
-
-
-
-
     <option value="32">Burundi</option>
-
-
-
-
-
     <option value="33">Cambodia</option>
-
-
-
-
-
     <option value="34">Cameroon</option>
 
 
@@ -1193,57 +1024,12 @@
 
 
     <option value="202">United States of America</option>
-
-
-
-
-
     <option value="203">Uruguay</option>
-
-
-
-
-
     <option value="204">Uzbekistan</option>
-
-
-
-
-
     <option value="205">Vanuatu</option>
-
-
-
-
-
     <option value="206">Venezuela</option>
-
-
-
-
-
-
-
     <option value="208">Yemen</option>
-
-
-
-
-
     <option value="209">Zambia</option>
-
-
-
-
-
     <option value="210">Zimbabwe</option>
-
-
-
-
-
     <option value="300">Global</option>
-
-
-
 </select>
