@@ -52,9 +52,7 @@ if (isset($_GET['action']) == 'logout') {
                          <div class="container_12 clearfix">
                              <div class="grid_12">
                                  <nav class="top-menu">
-                <?php // include "function/menu-header.php"; ?>
-     
-     
+                                       <?php // include "function/menu-header.php"; ?>
                                  </nav>
                                  <div class="top-message clearfix">
                                      <i class="icon iFolder"></i>
@@ -73,12 +71,15 @@ if (isset($_GET['action']) == 'logout') {
                                 <a href="."><img src="images/logo.png" alt="$SITE_NAME"/></a>
                             </div>
                             <div class="main-nav clearfix">
-                                <div class="nav-item">
-                                    <a href="?content=about" id="about" class="nav-title">Tentang kami</a>
+                                <div class="nav-item" style="margin-left: -20px;font-size: 20px;">
+                                    <a href="." class="nav-title" style="color:#FF8D58">CROOWD</a>
+                                </div>
+                                <div class="nav-item" style="font-size: 10px">
+                                    <a onclick="menuButton(1,'cari-pinjaman');" class="nav-title" style="cursor: pointer;">Cari Pinjaman</a>
                                 </div>
                                 <span class="sep"></span>
-                                <div class="nav-item">
-                                    <a href="?content=cara-kerja" id="howitworks"  class="nav-title">Cara kerja</a>
+                                <div class="nav-item" style="font-size: 10px">
+                                    <a onclick="menuButton(2,'mulai-berinvestasi');" class="nav-title" style="cursor: pointer;">Mulai Berinvestasi</a>
                                 </div>
                             </div>
                         </div>
