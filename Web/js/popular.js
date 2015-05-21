@@ -1,18 +1,19 @@
 $(function () {
-    console.log('Init Latest Project')
+    console.log('Init Popular Project');
     $.ajax({
         type: "get",
-        url: "http://api.croowd.co.id/prospect/newcomer",
+        url: "http://api.croowd.co.id/prospect/popular",
         dataType: 'json',
         success: function (data) {
             var ln = data.length;
             var ct = ln < 4 ? ln : 4;
             
-            var include = '<div class="lst-popular-project clearfix" style="margin:0px 0px -50px 0px !important;">';
+            var include = '';
             for (var i = 0; i < ct; i++) {
                 var item = data[i];
                 include = include + '<div class="grid_3">';
                 include = include + '<div class="project-short sml-thumb">';
+                //Top Info
                 include = include + '<div class="top-project-info">';
                 include = include + '<div class="content-info-short clearfix">';
                 include = include + '<a href="?content=project&id=' + item.id + '" class="thumb-img">';
@@ -28,6 +29,31 @@ $(function () {
                 include = include + '</div>';
                 include = include + '</div>';
                 include = include + '</div>';
+                //bottom Info
+                include = include + '<div class="bottom-project-info clearfix">';
+                include = include + '<div class="line-progress">';
+                include = include + '<div class="bg-progress">';
+                include = include + '<span  style="width: ' + item.pledgedPersentage + '%"></span>';
+                include = include + '</div></div>';
+
+                include = include + '<div class="group-fee clearfix">';
+                include = include + '<div class="fee-item">';
+                include = include + '<p class="rs lbl">Inv</p>';
+                include = include + '<span class="val">' + item.pledgedPersentage + '%</span>';
+                include = include + '</div>';
+                include = include + '<div class="sep"></div>';
+                include = include + '<div class="fee-item">';
+                include = include + '<p class="rs lbl">Target</p>';
+                include = include + '<span class="val">Rp ' + item.principal.toString() + '</span>';
+                include = include + '</div>';
+                include = include + '<div class="sep"></div>';
+                include = include + '<div class="fee-item">';
+                include = include + '<p class="rs lbl">Hari</p>';
+                include = include + '<span class="val"> ' + item.remainingDay + '</span>';
+                include = include + '</div>';
+                include = include + '</div>';
+                include = include + '</div>';
+                //End Container
                 include = include + '</div>';
                 include = include + '</div>';
             }
@@ -35,7 +61,7 @@ $(function () {
             include = include + '<div class="clear"></div>';
             include = include + '</div>';
 
-            $('#latest-project').append(include);
+            $('#popular-project').append(include);
         }
     });
 });
