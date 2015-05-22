@@ -1,6 +1,6 @@
 <?php
-$data = bacaHTML('prospect/popular');
-$rows = json_decode($data);
+    $data = bacaHTML('prospect/popular');
+    $rows = json_decode($data);
 ?>
 
 <div class="container_12 lst-popular-project clearfix" style="margin-top: 20px;">
