@@ -64,7 +64,12 @@ if (isset($_GET['action']) == 'logout') {
                              </div>
                          </div>
                      </div> --><!-- end: .wrap-top-menu -->
+					 <?php if (isset($_COOKIE['simbiosis']) == null) { ?>
                 <div class="container_12 clearfix">
+				 <?php } else { ?>
+				  
+				  <div class="container_12 clearfix" style="width:1150px;">
+				 <?php } ?>
                     <div id="headerwrapper" class="grid_12 header-content">
                         <div class="header-left">
                             <div id="logo">
@@ -85,11 +90,27 @@ if (isset($_GET['action']) == 'logout') {
                         </div>
                         <div class="header-right">
                             <div class="account-panel">
-                                <?php if (isset($_COOKIE['simbiosis']) == null) { ?> 
+														
+							
+                                <?php if (isset($_COOKIE['simbiosis']) == null) { ?>
+					
                                     <!-- <a href="#" class="btn btn-red sys_show_popup_login">Register</a>-->
                                     <a href="http://app.croowd.co.id" class="btn btn-black">Masuk</a>
                                 <?php } else { ?>
-                                    <a href="http://app.croowd.co.id" onclick="onMenu('register')" class="btn btn-red">Keluar</a>
+									<?php
+$cookies = $_COOKIE['simbiosis'];
+//echo $cookies;
+$data = bacaHTML('member/getBySession/' . $cookies );
+//$datas = json_decode($data);
+$json = json_decode($data, true);
+
+//echo $cookies;
+/*$cookie_name = "simbiosis";
+$cookie_value = "f18b882cbcac02a8db481131a3495db966f8a6cf";
+setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/"); // 86400 = 1 day*/
+?>			
+       
+                             <a href="http://app.croowd.co.id" onclick="onMenu('register')" class="btn btn-red">Keluar</a> <a href="http://app.croowd.co.id" onclick="onMenu('register')" class="btn btn-black"><?=$json['name'];?></a>
                                 <?php } ?>
                             </div>
                             <div class="form-search">
