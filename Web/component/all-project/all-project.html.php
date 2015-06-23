@@ -71,10 +71,10 @@
     </div>
     <div class="grid_3 clearfix">
         <nav class="lst-category">
-            <h2 class="title-welcome rs">Category</h2><br/>
+            <h2 class="title-welcome rs">Kategori</h2><br/>
             <?php include"function/list-category.php"; ?> 
             <p class="rs view-all-category">
-                <a href="#category" id="category" class="be-fc-orange">+ View all categories</a>
+                <a href="#category" id="category" class="be-fc-orange">+ Lihat semua kategori</a>
             </p>
         </nav>
     </div>
