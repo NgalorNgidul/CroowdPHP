@@ -1,8 +1,8 @@
 <div class="project-tab-detail tabbable accordion">
     <ul class="nav nav-tabs clearfix">
         <li class="active"><a href="#">Informasi</a></li>
-        <li><a href="#" class="be-fc-orange">Updates (0)</a></li>
-        <li><a href="#" class="be-fc-orange">Investor (270)</a></li>
+        <!--<li><a href="#" class="be-fc-orange">Updates (0)</a></li>-->
+        <!--<li><a href="#" class="be-fc-orange">Investor (270)</a></li>-->
         <!--<li><a href="#" class="be-fc-orange">Komentar (2)</a></li>-->
     </ul>
     <div class="tab-content">
