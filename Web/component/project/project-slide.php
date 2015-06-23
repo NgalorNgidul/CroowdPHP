@@ -1,16 +1,16 @@
 <h2 class="rs project-title"><?= $data->title; ?></h2>
 <p class="rs post-by">oleh <a href="#"><?= $data->ownerName; ?></a></p>
 <div class="project-short big-thumb">
-    <div class="top-project-info">
+    <!--<div class="top-project-info">
         <div class="content-info-short clearfix">
             <div class="thumb-img">
                 <div class="rslides_container">
                     <?php
-                                if ($rows[$i]->picture == null) {
+                                /*if ($rows[$i]->picture == null) {
                                     $srcimg = 'images/no-image.png';
                                 } else {
                                     $srcimg = $data->smallImage;
-                                }
+                                }*/
                                 ?>
                     <ul class="rslides" id="slider1">
                         <li><img  width="552" height="411"  src="<?=$srcimg;?>" alt=""></li>
@@ -20,7 +20,7 @@
                 </div>
             </div>
         </div>
-    </div><!--end: .top-project-info -->
+    </div>--><!--end: .top-project-info -->
     <div class="bottom-project-info clearfix">
         <div class="project-progress sys_circle_progress" data-percent="<?= $data->pledgedPersentage; ?>">
             <div class="sys_holder_sector"></div>
