@@ -108,10 +108,10 @@ if (isset($_GET['action']) == 'logout') {
                                 setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/"); // 86400 = 1 day*/
                                 if($json['id'] != 0) {
                                 ?>			
-                                <a href="http://app.croowd.co.id" onclick="onMenu('register')" class="btn btn-red">Keluar</a>
-                                <?php } ?>
                              <!--<a href="http://app.croowd.co.id" onclick="onMenu('register')" class="btn btn-red">Keluar</a> <a href="http://app.croowd.co.id" onclick="onMenu('register')" class="btn btn-black"><?//=$json['name'];?></a>-->
                              <a href="http://app.croowd.co.id" onclick="onMenu('register')" class="be-fc-orange"><?=$json['name'];?></a>
+                                <?php } else {?>
+                                    <a href="http://app.croowd.co.id" class="btn btn-black">Masuk</a>
                                 <?php } ?>
                             </div>
                             <div class="form-search">
