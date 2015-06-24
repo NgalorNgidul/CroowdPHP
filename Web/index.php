@@ -106,8 +106,10 @@ if (isset($_GET['action']) == 'logout') {
                                 /*$cookie_name = "simbiosis";
                                 $cookie_value = "f18b882cbcac02a8db481131a3495db966f8a6cf";
                                 setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/"); // 86400 = 1 day*/
+                                if($json['id'] != 0) {
                                 ?>			
-       
+                                <a href="http://app.croowd.co.id" onclick="onMenu('register')" class="btn btn-red">Keluar</a>
+                                <?php } ?>
                              <!--<a href="http://app.croowd.co.id" onclick="onMenu('register')" class="btn btn-red">Keluar</a> <a href="http://app.croowd.co.id" onclick="onMenu('register')" class="btn btn-black"><?//=$json['name'];?></a>-->
                              <a href="http://app.croowd.co.id" onclick="onMenu('register')" class="be-fc-orange"><?=$json['name'];?></a>
                                 <?php } ?>
