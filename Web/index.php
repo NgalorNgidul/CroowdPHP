@@ -90,27 +90,26 @@ if (isset($_GET['action']) == 'logout') {
                         </div>
                         <div class="header-right">
                             <div class="account-panel">
-														
-							
                                 <?php if (isset($_COOKIE['simbiosis']) == null) { ?>
 					
                                     <!-- <a href="#" class="btn btn-red sys_show_popup_login">Register</a>-->
                                     <a href="http://app.croowd.co.id" class="btn btn-black">Masuk</a>
                                 <?php } else { ?>
 									<?php
-$cookies = $_COOKIE['simbiosis'];
-//echo $cookies;
-$data = bacaHTML('member/getBySession/' . $cookies );
-//$datas = json_decode($data);
-$json = json_decode($data, true);
+                                $cookies = $_COOKIE['simbiosis'];
+                                //echo $cookies;
+                                $data = bacaHTML('member/getBySession/' . $cookies );
+                                //$datas = json_decode($data);
+                                $json = json_decode($data, true);
 
-//echo $cookies;
-/*$cookie_name = "simbiosis";
-$cookie_value = "f18b882cbcac02a8db481131a3495db966f8a6cf";
-setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/"); // 86400 = 1 day*/
-?>			
+                                //echo $cookies;
+                                /*$cookie_name = "simbiosis";
+                                $cookie_value = "f18b882cbcac02a8db481131a3495db966f8a6cf";
+                                setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/"); // 86400 = 1 day*/
+                                ?>			
        
-                             <a href="http://app.croowd.co.id" onclick="onMenu('register')" class="btn btn-red">Keluar</a> <a href="http://app.croowd.co.id" onclick="onMenu('register')" class="btn btn-black"><?=$json['name'];?></a>
+                             <!--<a href="http://app.croowd.co.id" onclick="onMenu('register')" class="btn btn-red">Keluar</a> <a href="http://app.croowd.co.id" onclick="onMenu('register')" class="btn btn-black"><?//=$json['name'];?></a>-->
+                             <a href="http://app.croowd.co.id" onclick="onMenu('register')"><?=$json['name'];?></a>
                                 <?php } ?>
                             </div>
                             <div class="form-search">
