@@ -109,7 +109,7 @@ if (isset($_GET['action']) == 'logout') {
                                 ?>			
        
                              <!--<a href="http://app.croowd.co.id" onclick="onMenu('register')" class="btn btn-red">Keluar</a> <a href="http://app.croowd.co.id" onclick="onMenu('register')" class="btn btn-black"><?//=$json['name'];?></a>-->
-                             <a href="http://app.croowd.co.id" onclick="onMenu('register')"><?=$json['name'];?></a>
+                             <a href="http://app.croowd.co.id" onclick="onMenu('register')" class="be-fc-orange"><?=$json['name'];?></a>
                                 <?php } ?>
                             </div>
                             <div class="form-search">
