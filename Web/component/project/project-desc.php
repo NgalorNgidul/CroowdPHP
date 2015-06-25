@@ -37,8 +37,11 @@
                     </div>
                 </div>
                 <div class="project-btn-action">
-                    <a class="btn big btn-red" href="#">Ask a question</a>
-                    <a class="btn big btn-black" href="#">Report this project</a>
+                    <?php if (isset($_COOKIE['simbiosis']) != null) { ?>
+                        <a class="btn big btn-red" href="http://app.croowd.co.id/member/#InvestList">Invest</a>
+                    <?php } ?>
+                    <!--                    <a class="btn big btn-red" href="#">Ask a question</a>
+                    <a class="btn big btn-black" href="#">Report this project</a>-->
                 </div>
             </div><!--end: .tab-pane(About) -->
         </div>

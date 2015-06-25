@@ -6,11 +6,13 @@
                 <div class="box-white" style="text-align: justify;text-justify: inter-word;">
                     <?php
                     if ($response == '') {
-                        echo 'Terima Kasih anda sudah melakukan pendaftarann, redirect halaman klik <a href='.'>disini</a>';
-                        echo "<script>setTimeout(\"location.href = '?content=" . $_GET['content'] . "';\",5000);</script>";
+//                        echo 'Terima Kasih anda sudah melakukan pendaftaran, redirect halaman klik <a href='.'>disini</a>';
+                        echo 'Terima Kasih anda sudah melakukan pendaftaran';
+//                        echo "<script>setTimeout(\"location.href = '?content=" . $_GET['content'] . "';\",5000);</script>";
                     } else {
-                        echo 'Gagal Melakukan Pendaftaran, redirect halaman klik <a href='.'>disini</a>';
-                        echo "<script>setTimeout(\"location.href = '?content=" . $_GET['content'] . "';\",5000);</script>";
+//                        echo 'Gagal Melakukan Pendaftaran, redirect halaman klik <a href='.'>disini</a>';
+                        echo 'Gagal Melakukan Pendaftaran.';
+//                        echo "<script>setTimeout(\"location.href = '?content=" . $_GET['content'] . "';\",5000);</script>";
                     }
                     ?>
                 </div>
