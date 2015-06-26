@@ -11,7 +11,7 @@
             <div class="tab-pane active accordion-content">
                 <div class="editor-content">
                     <h3 class="rs title-inside"><?= $data->title; ?></h3>
-                    <p class="rs post-by">oleh <a href="#" class="fw-b fc-gray be-fc-orange"><?= $data->ownerName; ?></a> di <span class="fw-b fc-gray"><?= $data->location; ?>, <?= $data->province; ?></span></p>
+                    <p class="rs post-by">oleh <a href="?content=profile&id=<?= $data->ownerId; ?>" class="fw-b fc-gray be-fc-orange"><?= $data->ownerName; ?></a> di <span class="fw-b fc-gray"><?= $data->location; ?>, <?= $data->province; ?></span></p>
 <!--                    <p>Nam sit amet est sapien, a faucibus purus. Sed commodo facilisis tempus. Pellentesque placerat elementum adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
                     <p>
@@ -37,9 +37,9 @@
                     </div>
                 </div>
                 <div class="project-btn-action">
-                    <?php // if (isset($_COOKIE['simbiosis']) != null) { ?>
+                    <?php if (isset($_COOKIE['simbiosis']) != null) { ?>
                         <a class="btn big btn-red" href="http://app.croowd.co.id/member/#InvestList:<?= $data->id; ?>">Invest</a>
-                    <?php // } ?>
+                    <?php } ?>
                     <!--                    <a class="btn big btn-red" href="#">Ask a question</a>
                     <a class="btn big btn-black" href="#">Report this project</a>-->
                 </div>
