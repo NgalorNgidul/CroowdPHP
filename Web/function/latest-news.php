@@ -11,12 +11,12 @@
                     <div class="wrap-short-detail" style="width: 100%">
                         <h3 class="rs acticle-title"><a href="#" class="be-fc-orange">Crowdfunding di Indonesia</a></h3>
                         <p class="rs title-description">
-                   Crowdfunding bisa menjadi salah satu sektor startup yang menarik untuk dilirik di Indonesia, mengingat negara ini memiliki budaya gotong royong yang kental. Crowdfunding sejatinya merupakan sebuah konsep menggalang pendanaan dari publik atau masyarakat. Dengan konsep ini, penggalang dana bisa terbantu untuk menjalankan proyeknya. Di sisi lain, pemberi dana bisa mendapatkan berbagai keuntungan yang ditawarkan oleh pemilik proyek. <br/><br/>
+                            Crowdfunding bisa menjadi salah satu sektor startup yang menarik untuk dilirik di Indonesia, mengingat negara ini memiliki budaya gotong royong yang kental. Crowdfunding sejatinya merupakan sebuah konsep menggalang pendanaan dari publik atau masyarakat. Dengan konsep ini, penggalang dana bisa terbantu untuk menjalankan proyeknya. Di sisi lain, pemberi dana bisa mendapatkan berbagai keuntungan yang ditawarkan oleh pemilik proyek. <br/><br/>
 
-		    Sejak tahun 2012, startup crowdfunding lokal sudah mulai bermunculan di tanah air. Meskipun demikian sangat sedikit sekali crowdfunding yang melirik skema syariah. Croowd.co.id merupakan salah satu pelopor di bidang ini yang sangat konsen untuk membantu UMKM di Indonesia. 
+                            Sejak tahun 2012, startup crowdfunding lokal sudah mulai bermunculan di tanah air. Meskipun demikian sangat sedikit sekali crowdfunding yang melirik skema syariah. Croowd.co.id merupakan salah satu pelopor di bidang ini yang sangat konsen untuk membantu UMKM di Indonesia. 
 
- <br/><br/>              
- <a href="#" class="be-fc-orange">selengkapnya ...</a></p>
+                            <!--<br/><br/>-->              
+                            <!--<a href="#" class="be-fc-orange">selengkapnya ...</a></p>-->
                     </div>
                 </div>
             </div>
