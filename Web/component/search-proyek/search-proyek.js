@@ -114,7 +114,7 @@ function listItem(tambah) {
                 include = include + ' <span class="val">' + item.remainingDay + '</span>';
                 include = include + '</div>';
                 include = include + '</div>';
-                include = include + '<a href="?content=project&id=' + item.id + '" class="btn btn-red btn-buck-project">Buck Proyek Ini</a>';
+//                include = include + '<a href="?content=project&id=' + item.id + '" class="btn btn-red btn-buck-project">Buck Proyek Ini</a>';
                 include = include + '<div class="clear"></div>';
                 include = include + '</div>';
                 include = include + '</div>';
