@@ -27,6 +27,9 @@ if (isset($_GET['action']) == 'logout') {
         <?php if (isset($_GET['content']) && $_GET['content'] == 'start-project') { ?>
             <link href="css/css/wizard.css" rel="stylesheet" />
         <?php } ?>
+        <?php if (isset($_GET['content']) && $_GET['content'] == 'all-project') { ?>
+            <link href="css/pagination.css" rel="stylesheet" />
+        <?php } ?>
         <script type="text/javascript" src="js/raphael-min.js"></script>
 
 

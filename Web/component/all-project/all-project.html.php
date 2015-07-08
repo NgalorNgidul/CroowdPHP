@@ -8,7 +8,21 @@
             <h3 class="common-title">Semua <span class="fc-orange">Project</span></h3>
         </div>-->
     <div class="clear"></div>
-    <div class="grid_9" id="all-project">
+    <div class="grid_9">
+        <div class="clearfix" id="all-project">
+            
+        </div>
+        <div class="clearfix" style="margin: auto;width: 40%">
+            <ul class="simple-pagination light-theme" id="all-paging">
+                <li id="0"><a href="#">First</a></li>
+                <li id="0"><a href="#">1</a></li>
+                <li id="20"><a href="#">2</a></li>
+                <li id="22"><a href="#">3</a></li>
+                <li id="23"><a href="#">4</a></li>
+                <li id="24"><a href="#">5</a></li>
+                <li id="24"><a href="#">Last</a></li>
+            </ul>
+        </div>
     </div>
     <div class="grid_3 clearfix">
         <nav class="lst-category">

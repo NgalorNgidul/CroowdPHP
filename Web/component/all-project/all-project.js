@@ -1,5 +1,20 @@
 $(function () {
-    var index = 0;
+    drawPage(0);
+});
+
+$("#all-paging li").click(function () {
+    var icl = "";
+    $('#all-project').html(icl);
+    var start = $(this).attr('id');
+//    alert(this.id); // id of clicked li by directly accessing DOMElement property
+//    alert(); // jQuery's .attr() method, same but more verbose
+//    alert($(this).html()); // gets innerHTML of clicked li
+//    alert($(this).text()); // gets text contents of clicked li
+    drawPage(start);
+});
+
+function drawPage(index) {
+//    console.log("Draw Page with index " + index);
     $.ajax({
         type: "get",
         url: "http://api.croowd.co.id/prospect/listall/" + index,
@@ -62,4 +77,4 @@ $(function () {
             $('#all-project').append(include);
         }
     });
-});
+}
