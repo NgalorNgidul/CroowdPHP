@@ -3,6 +3,10 @@ $(function () {
     $('#all-project').html(icl);
     $('#all-paging').html(icl);
     var type = window.location.hash.substr(1);
+    
+    if(type === "") {
+        type = 0;
+    }
     drawPage(type);
 });
 
