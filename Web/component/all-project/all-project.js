@@ -1,15 +1,17 @@
 $(function () {
-    drawPage(0);
-});
-
-$("#all-paging li").click(function () {
     var icl = "";
     $('#all-project').html(icl);
+    $('#all-paging').html(icl);
+    var type = window.location.hash.substr(1);
+    drawPage(type);
+});
+
+$("#all-paging").on('click', 'li', function () {
+//    alert('test');
+    var icl = "";
+    $('#all-project').html(icl);
+    $('#all-paging').html(icl);
     var start = $(this).attr('id');
-//    alert(this.id); // id of clicked li by directly accessing DOMElement property
-//    alert(); // jQuery's .attr() method, same but more verbose
-//    alert($(this).html()); // gets innerHTML of clicked li
-//    alert($(this).text()); // gets text contents of clicked li
     drawPage(start);
 });
 
@@ -21,9 +23,12 @@ function drawPage(index) {
         dataType: 'json',
         success: function (data) {
             var ln = data.prospects.length;
+            var ctPages = data.pages.length;
+            var pageLast = data.pages.length - 1;
             var include = '<div class="grid_12 wrap-title">';
             include += '<h3 class="common-title" style="margin-bottom: 10px;">Semua <span class="fc-orange">Project</span></h3>';
             include += '</div>';
+            var pages = '';
 
             for (var i = 0; i < ln; i++) {
                 var item = data.prospects[i];
@@ -73,8 +78,18 @@ function drawPage(index) {
                 include = include + '</div>';
                 include = include + '</div>';
             }
+            
+            pages = pages + '<li id="' + data.pages[0].start + '"><a href="#' + data.pages[0].start + '">First</a></li>';
+            for (var j = 0; j < ctPages; j++) {
+                var page = data.pages[j];
+
+                pages = pages + '<li id="' + page.start + '"><a href="#' + page.start + '">' + page.page + '</a></li>';
+
+            }
+            pages = pages + '<li id="' + data.pages[pageLast].start + '"><a href="#' + data.pages[pageLast].start + '">Last</a></li>';
 
             $('#all-project').append(include);
+            $('#all-paging').append(pages);
         }
     });
 }

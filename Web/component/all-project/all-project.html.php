@@ -14,13 +14,6 @@
         </div>
         <div class="clearfix" style="margin: auto;width: 40%">
             <ul class="simple-pagination light-theme" id="all-paging">
-                <li id="0"><a href="#">First</a></li>
-                <li id="0"><a href="#">1</a></li>
-                <li id="20"><a href="#">2</a></li>
-                <li id="22"><a href="#">3</a></li>
-                <li id="23"><a href="#">4</a></li>
-                <li id="24"><a href="#">5</a></li>
-                <li id="24"><a href="#">Last</a></li>
             </ul>
         </div>
     </div>
