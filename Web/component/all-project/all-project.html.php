@@ -15,6 +15,7 @@
         <div class="clearfix" style="margin: auto;width: 40%">
             <ul class="simple-pagination light-theme" id="all-paging">
             </ul>
+            <br />
         </div>
     </div>
     <div class="grid_3 clearfix">
