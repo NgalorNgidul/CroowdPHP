@@ -1,8 +1,3 @@
-<?php
-    $data = NULL;
-    $rows = json_decode($data);
-?>
-
 <div class="container_12 lst-popular-project clearfix" style="margin-top: 20px;">
     <!--    <div class="grid_12 wrap-title">
             <h3 class="common-title">Semua <span class="fc-orange">Project</span></h3>
@@ -23,8 +18,9 @@
             <h2 class="title-welcome rs">Kategori</h2><br/>
             <?php include"function/list-category.php"; ?> 
             <p class="rs view-all-category">
-                <a href="#category" id="category" class="be-fc-orange">+ Lihat semua kategori</a>
+                <a href="?content=all-project" id="category" class="be-fc-orange">+ Lihat semua kategori</a>
             </p>
+            <br />
         </nav>
     </div>
     <div class="clear clear-2col"></div>
