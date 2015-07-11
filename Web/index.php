@@ -24,6 +24,9 @@ if (isset($_GET['action']) == 'logout') {
         
     <link rel="stylesheet" href="css/responsiveslides.css"/>
         <link rel="stylesheet" href="css/style.css"/>
+        <?php //if (isset($_GET['content']) && $_GET['content'] == 'profile') { ?>
+        <!--<link href="css/css/bootstrap.min.css" rel="stylesheet" />-->
+        <?php // } ?>
         <?php if (isset($_GET['content']) && $_GET['content'] == 'start-project') { ?>
             <link href="css/css/wizard.css" rel="stylesheet" />
         <?php } ?>
